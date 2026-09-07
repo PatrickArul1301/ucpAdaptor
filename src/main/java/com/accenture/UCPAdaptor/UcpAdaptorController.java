@@ -20,7 +20,7 @@ public class UcpAdaptorController {
                                   "version": "2026-04-08",
                                   "spec": "https://ucp.dev/2026-04-08/specification/overview",
                                   "transport": "mcp",
-                                  "endpoint": "https://stunning-cobbler-2b2a26.netlify.app/ucp/mcp",
+                                  "endpoint": "https://ucpadaptor.onrender.com/ucp/mcp",
                                   "schema": "https://ucp.dev/2026-04-08/services/shopping/mcp.openrpc.json"
                                 }
                               ]
@@ -37,11 +37,11 @@ public class UcpAdaptorController {
                           },
                           "signing_keys": [
                             {
-                              "kid": "abc-key-2026",
+                              "kid": "ucpadaptor-key-2026",
                               "kty": "EC",
                               "crv": "P-256",
-                              "x": "REPLACE_WITH_YOUR_PUBLIC_KEY_X",
-                              "y": "REPLACE_WITH_YOUR_PUBLIC_KEY_Y",
+                              "x": "08dxr3fmRRgHgI5AuNfAzgdLLKxs5_V6LssqemQkSHA",
+                              "y": "Jg4OMbHECBZF0EaL6lWO8Q4zudRj2lYm6JShabSDaq8",
                               "use": "sig",
                               "alg": "ES256"
                             }
