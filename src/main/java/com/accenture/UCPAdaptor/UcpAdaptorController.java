@@ -11,30 +11,32 @@ public class UcpAdaptorController {
         return """
                 {
                   "ucp": {
-                    "version": "2026-04-08",
-                    "payment_handlers": [],
+                    "version": "2026-08-25",
+                    "payment_handlers": {},
                     "services": {
                       "dev.ucp.shopping": [
                         {
-                          "version": "2026-04-08",
-                          "spec": "https://ucp.dev/2026-04-08/specification/overview",
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/overview",
                           "transport": "mcp",
                           "endpoint": "https://ucpadaptor.onrender.com/ucp/mcp",
-                          "schema": "https://ucp.dev/2026-04-08/services/shopping/mcp.openrpc.json"
+                          "schema": "https://ucp.dev/2026-08-25/services/shopping/mcp.openrpc.json"
                         }
                       ]
                     },
                     "capabilities": {
-                      "dev.ucp.shopping.catalog": [
+                
+                      "dev.ucp.shopping.catalog.search": [
                         {
-                          "version": "2026-04-08",
-                          "spec": "https://ucp.dev/2026-04-08/specification/catalog",
-                          "schema": "https://ucp.dev/2026-04-08/schemas/shopping/catalog.json"
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/search",
+                          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
+               
                         }
                       ]
                     }
                   },
-                  "signing_keys": [
+                  "keys": [
                     {
                       "kid": "ucpadaptor-key-2026",
                       "kty": "EC",
@@ -45,26 +47,6 @@ public class UcpAdaptorController {
                       "alg": "ES256"
                     }
                   ]
-                }
-                """;
-    }
-
-    @PostMapping(value = "/ucp/mcp", produces = MediaType.APPLICATION_JSON_VALUE)
-    public String handleMCP(@RequestBody String body) {
-        return """
-                {
-                  "jsonrpc": "2.0",
-                  "id": 1,
-                  "result": {
-                    "protocolVersion": "2024-11-05",
-                    "capabilities": {
-                      "tools": {}
-                    },
-                    "serverInfo": {
-                      "name": "ucpadaptor",
-                      "version": "1.0.0"
-                    }
-                  }
                 }
                 """;
     }
