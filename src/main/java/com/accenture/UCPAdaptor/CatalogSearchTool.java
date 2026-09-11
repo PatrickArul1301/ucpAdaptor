@@ -81,9 +81,13 @@ public class CatalogSearchTool {
 
     @Tool(name = "search_catalog",
             description = """
-              Search the product catalog. Accepts UCP-compliant search params: \
-              free-text query, category and price filters, and pagination. \
-              Returns a list of matching products with prices in minor currency units (cents).
+              Search the product catalog. Returns matching products with name, description, \
+              price (in dollars), categories, and stock status. \
+              To browse all products leave the query field empty or omit it. \
+              For keyword search use specific product terms (e.g. "headphones", "yoga", "coffee") \
+              — generic phrases like "all products" or "show everything" will return no results. \
+              Supports category filters (electronics, audio, footwear, sports, fitness, kitchen, \
+              appliances, outdoor, accessories) and price range in cents (e.g. max:10000 = $100).
               """)
     public String searchCatalog(
             @ToolParam(description = "UCP catalog search params: {query, filters: {categories, price: {min, max}}, pagination: {limit, cursor}}", required = false)
@@ -136,6 +140,14 @@ public class CatalogSearchTool {
                         || p.categories().stream().anyMatch(c -> categoryFilter.contains(c.toLowerCase())))
                 .filter(p -> p.priceMinorUnits() >= pMin && p.priceMinorUnits() <= pMax)
                 .toList();
+
+        // If query terms produced no matches (e.g. generic phrases like "all products"),
+        // fall back to the full catalog so the caller always gets useful results.
+        if (allFiltered.isEmpty() && !terms.isEmpty() && categoryFilter.isEmpty()) {
+            allFiltered = CATALOG.stream()
+                    .filter(p -> p.priceMinorUnits() >= pMin && p.priceMinorUnits() <= pMax)
+                    .toList();
+        }
 
         List<Product> page = allFiltered.stream().skip(offset).limit(limit).toList();
 
