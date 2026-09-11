@@ -121,14 +121,17 @@ public class CatalogSearchTool {
             try { offset = Integer.parseInt(pagination.cursor().trim()); } catch (NumberFormatException ignored) {}
         }
 
-        final String q    = (query != null) ? query.toLowerCase().trim() : "";
-        final int    pMin = priceMin;
-        final int    pMax = priceMax;
+        final List<String> terms = (query != null && !query.isBlank())
+                ? List.of(query.toLowerCase().trim().split("\\s+"))
+                : List.of();
+        final int pMin = priceMin;
+        final int pMax = priceMax;
 
         List<Product> allFiltered = CATALOG.stream()
-                .filter(p -> q.isEmpty()
-                        || p.name().toLowerCase().contains(q)
-                        || p.description().toLowerCase().contains(q))
+                .filter(p -> terms.isEmpty()
+                        || terms.stream().anyMatch(t ->
+                                p.name().toLowerCase().contains(t)
+                                || p.description().toLowerCase().contains(t)))
                 .filter(p -> categoryFilter.isEmpty()
                         || p.categories().stream().anyMatch(c -> categoryFilter.contains(c.toLowerCase())))
                 .filter(p -> p.priceMinorUnits() >= pMin && p.priceMinorUnits() <= pMax)
