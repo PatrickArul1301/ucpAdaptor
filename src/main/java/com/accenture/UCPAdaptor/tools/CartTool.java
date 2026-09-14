@@ -153,6 +153,12 @@ public class CartTool implements UcpCapabilityContributor {
         return result;
     }
 
+    /** Returns a snapshot of cart items, or null if the cart does not exist. */
+    public List<CartItem> getCartItems(String cartId) {
+        List<CartItem> items = carts.get(cartId);
+        return items != null ? List.copyOf(items) : null;
+    }
+
     private String buildCartJson(String cartId, List<CartItem> items) {
         try {
             ObjectNode response = mapper.createObjectNode();

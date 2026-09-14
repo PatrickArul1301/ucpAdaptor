@@ -2,6 +2,12 @@ package com.accenture.UCPAdaptor.web;
 
 import com.accenture.UCPAdaptor.tools.CartTool;
 import com.accenture.UCPAdaptor.tools.CatalogSearchTool;
+import com.accenture.UCPAdaptor.tools.CheckoutTool;
+import com.accenture.UCPAdaptor.ucp.ResolvedProfile;
+import com.accenture.UCPAdaptor.ucp.UcpCapabilityContributor;
+import com.accenture.UCPAdaptor.ucp.UcpProfileResolver;
+import com.accenture.UCPAdaptor.ucp.UcpVersion;
+import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ai.chat.client.ChatClient;
@@ -10,7 +16,11 @@ import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
+import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/demo")
@@ -18,32 +28,45 @@ public class DemoController {
 
     private static final Logger log = LoggerFactory.getLogger(DemoController.class);
 
+    private static final Pattern PROFILE_PATTERN =
+        Pattern.compile("profile\\s*=\\s*\"([^\"]+)\"");
+
     private static final String SYSTEM_PROMPT =
         "You are a helpful shopping assistant for a store powered by UCP (Universal Commerce Protocol). " +
         "Help users find products, add them to their cart, and check out. " +
-        "Use the search_catalog tool to search for products and the cart tools to manage the cart. " +
+        "Use the search_catalog tool to search for products, the cart tools to manage the cart, " +
+        "and the checkout tools to complete a purchase. " +
         "Always use the tools — never make up product information.";
 
     private final ChatClient chatClient;
     private final DemoEventEmitter demoEventEmitter;
+    private final List<UcpCapabilityContributor> contributors;
+    private final UcpProfileResolver profileResolver;
 
     public DemoController(ChatModel chatModel,
                           CatalogSearchTool catalogSearchTool,
                           CartTool cartTool,
-                          DemoEventEmitter demoEventEmitter) {
+                          CheckoutTool checkoutTool,
+                          DemoEventEmitter demoEventEmitter,
+                          List<UcpCapabilityContributor> contributors,
+                          UcpProfileResolver profileResolver) {
         this.chatClient = ChatClient.builder(chatModel)
             .defaultSystem(SYSTEM_PROMPT)
-            .defaultTools(catalogSearchTool, cartTool)
+            .defaultTools(catalogSearchTool, cartTool, checkoutTool)
             .build();
         this.demoEventEmitter = demoEventEmitter;
-        log.info("[STARTUP] DemoController ready — tools registered: search_catalog, cart_create, cart_add_item, cart_get, cart_remove_item");
+        this.contributors = contributors;
+        this.profileResolver = profileResolver;
+        log.info("[STARTUP] DemoController ready — tools: search_catalog, cart_*, checkout_*");
     }
 
     @PostMapping("/chat")
-    public SseEmitter chat(@RequestBody Map<String, String> body) {
+    public SseEmitter chat(@RequestBody Map<String, String> body, HttpServletRequest request) {
         String message = body.getOrDefault("message", "");
+        String ucpAgentHeader = request.getHeader("UCP-Agent");
         log.info("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-        log.info("[STEP 1] Browser → POST /api/demo/chat | message: '{}'", message);
+        log.info("[STEP 1] Browser → POST /api/demo/chat | message: '{}' | UCP-Agent: {}", message,
+            ucpAgentHeader != null ? ucpAgentHeader : "(none)");
 
         SseEmitter emitter = new SseEmitter(120_000L);
         demoEventEmitter.setEmitter(emitter);
@@ -51,14 +74,32 @@ public class DemoController {
 
         new Thread(() -> {
             try {
-                log.info("[STEP 3] Calling Gemini (gemini-3.6-flash) with tools: search_catalog, cart_*");
+                // ── UCP DISCOVERY (Step 2a) ──────────────────────────────────────────
+                List<String> storeCapabilities = contributors.stream()
+                    .map(UcpCapabilityContributor::getCapabilityId)
+                    .collect(Collectors.toList());
+
+                String discoveryJson = buildDiscoveryJson(storeCapabilities);
+                demoEventEmitter.emit("ucp_discovery", discoveryJson);
+                log.info("[STEP 2a] UCP Discovery — store advertises {} capability(-ies): {}",
+                    storeCapabilities.size(), storeCapabilities);
+
+                // ── CAPABILITY INTERSECTION (Step 2b) ────────────────────────────────
+                String intersectionJson;
+                if (ucpAgentHeader != null && !ucpAgentHeader.isBlank()) {
+                    intersectionJson = resolveRealIntersection(ucpAgentHeader, storeCapabilities);
+                } else {
+                    intersectionJson = buildDirectCallIntersectionJson(storeCapabilities);
+                }
+                demoEventEmitter.emit("ucp_intersection", intersectionJson);
+
+                // ── GEMINI CALL (Steps 3–10) ─────────────────────────────────────────
+                log.info("[STEP 3] Calling Gemini (gemini-3.6-flash) with tools: search_catalog, cart_*, checkout_*");
 
                 ChatResponse response = chatClient.prompt()
                     .user(message)
                     .call()
                     .chatResponse();
-
-                // Steps 4–9 happen inside Gemini + CatalogSearchTool/CartTool (see their logs)
 
                 String responseText = null;
                 if (response != null && response.getResult() != null
@@ -66,7 +107,8 @@ public class DemoController {
                     responseText = response.getResult().getOutput().getText();
                 }
 
-                log.info("[STEP 10] Gemini final response received — {} chars", responseText == null ? "null" : responseText.length());
+                log.info("[STEP 10] Gemini final response received — {} chars",
+                    responseText == null ? "null" : responseText.length());
 
                 if (responseText != null && !responseText.isEmpty()) {
                     String safe = responseText
@@ -104,5 +146,68 @@ public class DemoController {
         }, "demo-chat").start();
 
         return emitter;
+    }
+
+    private String resolveRealIntersection(String ucpAgentHeader, List<String> storeCapabilities) {
+        String profileUrl = parseProfileUrl(ucpAgentHeader);
+        if (profileUrl == null) {
+            log.warn("[STEP 2b] UCP-Agent header present but no profile= URL found — skipping intersection");
+            return buildDirectCallIntersectionJson(storeCapabilities);
+        }
+        try {
+            ResolvedProfile profile = profileResolver.resolveProfile(profileUrl);
+            List<String> intersection = profileResolver.getIntersection(profile, contributors);
+            List<String> agentOnly = profile.capabilities().stream()
+                .filter(c -> !storeCapabilities.contains(c))
+                .collect(Collectors.toList());
+            log.info("[STEP 2b] Real intersection — {} matched, {} agent-only: {}", intersection.size(), agentOnly.size(), agentOnly);
+            return "{" +
+                "\"source\":\"profile\"," +
+                "\"profileUrl\":\"" + profileUrl + "\"," +
+                "\"agentVersion\":\"" + profile.ucpVersion() + "\"," +
+                "\"agentCapabilities\":" + toJsonArray(profile.capabilities()) + "," +
+                "\"storeCapabilities\":" + toJsonArray(storeCapabilities) + "," +
+                "\"intersection\":" + toJsonArray(intersection) + "," +
+                "\"notAvailable\":" + toJsonArray(agentOnly) + "," +
+                "\"result\":\"Agent will use " + intersection.size() + " of " + profile.capabilities().size() + " supported capabilities\"" +
+                "}";
+        } catch (IllegalArgumentException e) {
+            log.warn("[STEP 2b] Profile resolution failed: {}", e.getMessage());
+            return "{\"source\":\"profile\",\"error\":\"" + e.getMessage().replace("\"", "'") + "\"}";
+        }
+    }
+
+    private String buildDirectCallIntersectionJson(List<String> storeCapabilities) {
+        log.info("[STEP 2b] No UCP-Agent header — direct browser call; showing store capabilities");
+        return "{" +
+            "\"source\":\"direct\"," +
+            "\"note\":\"No UCP-Agent header — this is a direct browser call, not a UCP agent session\"," +
+            "\"storeCapabilities\":" + toJsonArray(storeCapabilities) + "," +
+            "\"intersection\":" + toJsonArray(storeCapabilities) + "," +
+            "\"result\":\"All " + storeCapabilities.size() + " store capabilities available\"" +
+            "}";
+    }
+
+    private String buildDiscoveryJson(List<String> storeCapabilities) {
+        StringBuilder caps = new StringBuilder();
+        for (int i = 0; i < storeCapabilities.size(); i++) {
+            if (i > 0) caps.append(",");
+            caps.append("\"").append(storeCapabilities.get(i)).append("\"");
+        }
+        return "{" +
+            "\"endpoint\":\"/.well-known/ucp\"," +
+            "\"ucpVersion\":\"" + UcpVersion.CURRENT + "\"," +
+            "\"mcpEndpoint\":\"/ucp/mcp\"," +
+            "\"storeCapabilities\":[" + caps + "]" +
+            "}";
+    }
+
+    private String parseProfileUrl(String headerValue) {
+        Matcher m = PROFILE_PATTERN.matcher(headerValue);
+        return m.find() ? m.group(1) : null;
+    }
+
+    private String toJsonArray(List<String> items) {
+        return "[" + items.stream().map(s -> "\"" + s + "\"").collect(Collectors.joining(",")) + "]";
     }
 }

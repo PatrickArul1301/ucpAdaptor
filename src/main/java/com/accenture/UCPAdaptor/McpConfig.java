@@ -2,6 +2,7 @@ package com.accenture.UCPAdaptor;
 
 import com.accenture.UCPAdaptor.tools.CartTool;
 import com.accenture.UCPAdaptor.tools.CatalogSearchTool;
+import com.accenture.UCPAdaptor.tools.CheckoutTool;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
@@ -19,9 +20,11 @@ public class McpConfig {
     }
 
     @Bean
-    public ToolCallbackProvider catalogToolCallbackProvider(CatalogSearchTool catalogSearchTool, CartTool cartTool) {
+    public ToolCallbackProvider catalogToolCallbackProvider(CatalogSearchTool catalogSearchTool,
+                                                            CartTool cartTool,
+                                                            CheckoutTool checkoutTool) {
         return MethodToolCallbackProvider.builder()
-                .toolObjects(catalogSearchTool, cartTool)
+                .toolObjects(catalogSearchTool, cartTool, checkoutTool)
                 .build();
     }
 }
