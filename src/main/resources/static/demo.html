@@ -51,6 +51,36 @@
     .input-area button:hover:not(:disabled) { background: #1f618d; }
 
     .empty-trace { color: #45475a; font-size: 0.8rem; text-align: center; padding: 24px 12px; }
+
+    /* ── UCP protocol cards (blue/indigo — distinct from tool cards) ──────── */
+    .ucp-section-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #6c7086; padding: 4px 4px 2px; flex-shrink: 0; }
+
+    .ucp-card { background: #181825; border: 1px solid #3a4a6a; border-radius: 8px; overflow: hidden; flex-shrink: 0; }
+    .ucp-card-header { padding: 8px 12px; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+    .ucp-card-header .icon { font-size: 0.75rem; }
+    .ucp-card-header .name { font-size: 0.8rem; font-weight: bold; }
+    .ucp-card-header .badge { font-size: 0.7rem; margin-left: auto; padding: 2px 8px; border-radius: 10px; }
+    .ucp-card-body { padding: 8px 12px; font-size: 0.72rem; font-family: monospace; max-height: 180px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; display: none; }
+    .ucp-card.expanded .ucp-card-body { display: block; }
+
+    .ucp-discovery-card .ucp-card-header { background: #1a2a40; }
+    .ucp-discovery-card .ucp-card-header .name { color: #89b4fa; }
+    .ucp-discovery-card .ucp-card-header .badge { color: #89b4fa; background: #1a2233; }
+    .ucp-discovery-card { border-color: #3a5a8a; }
+    .ucp-discovery-card .ucp-card-body { color: #89b4fa; }
+
+    .ucp-intersection-card .ucp-card-header { background: #1a1a3a; }
+    .ucp-intersection-card .ucp-card-header .name { color: #cba6f7; }
+    .ucp-intersection-card .ucp-card-header .badge { color: #a6e3a1; background: #1a3a1a; }
+    .ucp-intersection-card { border-color: #4a3a6a; }
+    .ucp-intersection-card .ucp-card-body { color: #cba6f7; }
+
+    /* capability pill list inside intersection card */
+    .cap-row { display: flex; flex-direction: column; gap: 4px; padding: 6px 12px 10px; }
+    .cap-group { font-size: 0.68rem; color: #6c7086; margin-top: 6px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .cap-pill { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-family: monospace; margin: 1px 2px; }
+    .cap-pill.matched { background: #1a3a1a; color: #a6e3a1; border: 1px solid #2a5a2a; }
+    .cap-pill.unavailable { background: #2a1a1a; color: #f38ba8; border: 1px solid #5a2a2a; text-decoration: line-through; opacity: 0.7; }
   </style>
 </head>
 <body>
@@ -80,6 +110,8 @@
     </div>
   </div>
   <script>
+    // Stable for this page session; refreshing the page starts a fresh conversation.
+    const conversationId = crypto.randomUUID();
     let traceEmpty = true;
 
     function clearEmptyTrace() {
@@ -97,6 +129,96 @@
       msg.appendChild(div);
       msg.scrollTop = msg.scrollHeight;
       return div;
+    }
+
+    function addUcpDiscoveryCard(data) {
+      clearEmptyTrace();
+      const trace = document.getElementById('trace');
+
+      const label = document.createElement('div');
+      label.className = 'ucp-section-label';
+      label.textContent = '— UCP Protocol —';
+      trace.appendChild(label);
+
+      const card = document.createElement('div');
+      card.className = 'ucp-card ucp-discovery-card';
+
+      const caps = (data.storeCapabilities || []).length;
+      const header = document.createElement('div');
+      header.className = 'ucp-card-header';
+      header.innerHTML = '<span class="icon">&#x1F50D;</span>'
+        + '<span class="name">GET /.well-known/ucp</span>'
+        + '<span class="badge">' + caps + ' capabilit' + (caps === 1 ? 'y' : 'ies') + '</span>';
+      header.onclick = () => card.classList.toggle('expanded');
+
+      const body = document.createElement('div');
+      body.className = 'ucp-card-body';
+      body.textContent = JSON.stringify(data, null, 2);
+
+      card.appendChild(header);
+      card.appendChild(body);
+      trace.appendChild(card);
+      trace.scrollTop = trace.scrollHeight;
+      return card;
+    }
+
+    function addUcpIntersectionCard(data) {
+      clearEmptyTrace();
+      const trace = document.getElementById('trace');
+
+      const card = document.createElement('div');
+      card.className = 'ucp-card ucp-intersection-card';
+
+      const matched = (data.intersection || []).length;
+      const total = (data.agentCapabilities || []).length;
+      const header = document.createElement('div');
+      header.className = 'ucp-card-header';
+      header.innerHTML = '<span class="icon">&#x2229;</span>'
+        + '<span class="name">Capability Intersection</span>'
+        + '<span class="badge">' + matched + ' / ' + total + ' matched</span>';
+      header.onclick = () => card.classList.toggle('expanded');
+
+      const capRow = document.createElement('div');
+      capRow.className = 'cap-row';
+
+      if (data.intersection && data.intersection.length > 0) {
+        const g1 = document.createElement('div');
+        g1.className = 'cap-group';
+        g1.textContent = 'Active this session';
+        capRow.appendChild(g1);
+        data.intersection.forEach(function(c) {
+          const pill = document.createElement('span');
+          pill.className = 'cap-pill matched';
+          pill.textContent = c.replace('dev.ucp.shopping.', '');
+          pill.title = c;
+          capRow.appendChild(pill);
+        });
+      }
+
+      if (data.notAvailable && data.notAvailable.length > 0) {
+        const g2 = document.createElement('div');
+        g2.className = 'cap-group';
+        g2.textContent = 'Not available here';
+        capRow.appendChild(g2);
+        data.notAvailable.forEach(function(c) {
+          const pill = document.createElement('span');
+          pill.className = 'cap-pill unavailable';
+          pill.textContent = c.replace('dev.ucp.shopping.', '');
+          pill.title = c;
+          capRow.appendChild(pill);
+        });
+      }
+
+      const body = document.createElement('div');
+      body.className = 'ucp-card-body';
+      body.textContent = JSON.stringify(data, null, 2);
+
+      card.appendChild(header);
+      card.appendChild(capRow);
+      card.appendChild(body);
+      trace.appendChild(card);
+      trace.scrollTop = trace.scrollHeight;
+      return card;
     }
 
     function addTraceCard(name, type, jsonData) {
@@ -152,7 +274,7 @@
         const resp = await fetch('/api/demo/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message })
+          body: JSON.stringify({ message, conversationId })
         });
 
         if (!resp.ok) {
@@ -184,7 +306,17 @@
             console.log('[demo] SSE event:', eventType, '| data:', dataLine.slice(0, 200));
             if (!dataLine) continue;
 
-            if (eventType === 'text') {
+            if (eventType === 'ucp_discovery') {
+              try {
+                const obj = JSON.parse(dataLine);
+                addUcpDiscoveryCard(obj);
+              } catch (e) { console.error('[demo] ucp_discovery parse error:', e); }
+            } else if (eventType === 'ucp_intersection') {
+              try {
+                const obj = JSON.parse(dataLine);
+                addUcpIntersectionCard(obj);
+              } catch (e) { console.error('[demo] ucp_intersection parse error:', e); }
+            } else if (eventType === 'text') {
               try {
                 const obj = JSON.parse(dataLine);
                 console.log('[demo] text chunk:', obj.chunk);

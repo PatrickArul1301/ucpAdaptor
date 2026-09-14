@@ -11,6 +11,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import org.springframework.ai.chat.memory.InMemoryChatMemoryRepository;
+import org.springframework.ai.chat.memory.MessageWindowChatMemory;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.web.bind.annotation.*;
@@ -50,9 +53,16 @@ public class DemoController {
                           DemoEventEmitter demoEventEmitter,
                           List<UcpCapabilityContributor> contributors,
                           UcpProfileResolver profileResolver) {
+        MessageChatMemoryAdvisor memoryAdvisor = MessageChatMemoryAdvisor.builder(
+            MessageWindowChatMemory.builder()
+                .chatMemoryRepository(new InMemoryChatMemoryRepository())
+                .maxMessages(40)
+                .build()
+        ).build();
         this.chatClient = ChatClient.builder(chatModel)
             .defaultSystem(SYSTEM_PROMPT)
             .defaultTools(catalogSearchTool, cartTool, checkoutTool)
+            .defaultAdvisors(memoryAdvisor)
             .build();
         this.demoEventEmitter = demoEventEmitter;
         this.contributors = contributors;
@@ -63,10 +73,11 @@ public class DemoController {
     @PostMapping("/chat")
     public SseEmitter chat(@RequestBody Map<String, String> body, HttpServletRequest request) {
         String message = body.getOrDefault("message", "");
+        String conversationId = body.getOrDefault("conversationId", "default");
         String ucpAgentHeader = request.getHeader("UCP-Agent");
         log.info("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-        log.info("[STEP 1] Browser → POST /api/demo/chat | message: '{}' | UCP-Agent: {}", message,
-            ucpAgentHeader != null ? ucpAgentHeader : "(none)");
+        log.info("[STEP 1] Browser → POST /api/demo/chat | conversationId={} | message: '{}' | UCP-Agent: {}",
+            conversationId, message, ucpAgentHeader != null ? ucpAgentHeader : "(none)");
 
         SseEmitter emitter = new SseEmitter(120_000L);
         demoEventEmitter.setEmitter(emitter);
@@ -98,6 +109,7 @@ public class DemoController {
 
                 ChatResponse response = chatClient.prompt()
                     .user(message)
+                    .advisors(a -> a.param("chat_memory_conversation_id", conversationId))
                     .call()
                     .chatResponse();
 
