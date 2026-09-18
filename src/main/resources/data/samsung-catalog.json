@@ -1,0 +1,2801 @@
+[ {
+  "id" : "SM-S731UDBAVZW",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Verizon)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Verizon), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-verizon-sku-sm-s731udbavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731udbavzw/gallery/us-galaxy-s25-fe-sm-s731-sm-s731udbavzw-548773007?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UDBAXAA",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Unlocked), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-unlocked-sku-sm-s731udbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731udbaxaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731udbaxaa-548773032?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UDBAXAU",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (T-Mobile), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-t-mobile-sku-sm-s731udbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731udbaxau/gallery/us-galaxy-s25-fe-sm-s731-sm-s731udbaxau-548773078?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UDBEXAA",
+  "in_stock" : false,
+  "price" : 749.99,
+  "name" : "Galaxy S25 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 256GB (Unlocked), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-256gb-unlocked-sku-sm-s731udbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731udbexaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731udbexaa-548773217?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731ULBAVZW",
+  "in_stock" : true,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Verizon)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Verizon), Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-verizon-sku-sm-s731ulbavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731ulbavzw/gallery/us-galaxy-s25-fe-sm-s731-sm-s731ulbavzw-548773391?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731ULBAXAA",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Unlocked), Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-unlocked-sku-sm-s731ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731ulbaxaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731ulbaxaa-548773420?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731ULBAXAU",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (T-Mobile), Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-t-mobile-sku-sm-s731ulbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731ulbaxau/gallery/us-galaxy-s25-fe-sm-s731-sm-s731ulbaxau-548773470?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731ULBEXAA",
+  "in_stock" : false,
+  "price" : 749.99,
+  "name" : "Galaxy S25 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 256GB (Unlocked), Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-256gb-unlocked-sku-sm-s731ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731ulbexaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731ulbexaa-548773617?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZKAATT",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (AT&T)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (AT&T), Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-at-t-sku-sm-s731uzkaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzkaatt/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzkaatt-548773711?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZKAVZW",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Verizon)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Verizon), Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-verizon-sku-sm-s731uzkavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzkavzw/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzkavzw-548773971?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZKAXAA",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Unlocked), Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-unlocked-sku-sm-s731uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzkaxaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzkaxaa-548774025?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZKAXAU",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (T-Mobile), Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-t-mobile-sku-sm-s731uzkaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzkaxau/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzkaxau-548774118?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZKEXAA",
+  "in_stock" : false,
+  "price" : 749.99,
+  "name" : "Galaxy S25 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 256GB (Unlocked), Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-256gb-unlocked-sku-sm-s731uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzkexaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzkexaa-548774259?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZWAXAA",
+  "in_stock" : false,
+  "price" : 649.99,
+  "name" : "Galaxy S25 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 128GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-128gb-unlocked-sku-sm-s731uzwaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzwaxaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzwaxaa-548774453?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S731UZWEXAA",
+  "in_stock" : false,
+  "price" : 749.99,
+  "name" : "Galaxy S25 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE 256GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-fe/buy/galaxy-s25-fe-256gb-unlocked-sku-sm-s731uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s731uzwexaa/gallery/us-galaxy-s25-fe-sm-s731-sm-s731uzwexaa-548774647?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741ULGAVZW",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (Verizon)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (Verizon), Pistachio",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-verizon-sku-sm-s741ulgavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741ulgavzw/gallery/us-galaxy-s26-fe-sm-s741-sm-s741ulgavzw-554292596?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741ULGAXAA",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S26 FE Enterprise Edition", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (Unlocked), Pistachio",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-unlocked-sku-sm-s741ulgaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741ulgaxaa/gallery/us-galaxy-s26-fe-sm-s741-sm-s741ulgaxaa-554292615?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741ULGEXAA",
+  "in_stock" : true,
+  "price" : 799.99,
+  "name" : "Galaxy S26 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 FE Enterprise Edition", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 256GB (Unlocked), Pistachio",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-256gb-unlocked-sku-sm-s741ulgexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741ulgexaa/gallery/us-galaxy-s26-fe-sm-s741-sm-s741ulgexaa-554292653?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKAATT",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (AT&T)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (AT&T), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-at-t-sku-sm-s741uzkaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkaatt/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkaatt-554292672?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKAVZW",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (Verizon)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (Verizon), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-verizon-sku-sm-s741uzkavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkavzw/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkavzw-554292691?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKAXAA",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S26 FE Enterprise Edition", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (Unlocked), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-unlocked-sku-sm-s741uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkaxaa/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkaxaa-554292710?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKAXAU",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (T-Mobile), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-t-mobile-sku-sm-s741uzkaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkaxau/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkaxau-554292729?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKEVZW",
+  "in_stock" : true,
+  "price" : 799.99,
+  "name" : "Galaxy S26 FE 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 256GB (Verizon), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-256gb-verizon-sku-sm-s741uzkevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkevzw/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkevzw-554292748?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKEXAA",
+  "in_stock" : true,
+  "price" : 799.99,
+  "name" : "Galaxy S26 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 FE Enterprise Edition", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 256GB (Unlocked), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-256gb-unlocked-sku-sm-s741uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkexaa/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkexaa-554292767?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZKEXAU",
+  "in_stock" : true,
+  "price" : 799.99,
+  "name" : "Galaxy S26 FE 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 256GB (T-Mobile), Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-256gb-t-mobile-sku-sm-s741uzkexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzkexau/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzkexau-554292786?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZVAVZW",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (Verizon)",
+  "categories" : [ "Galaxy S26 FE", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (Verizon), Blueberry",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-verizon-sku-sm-s741uzvavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzvavzw/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzvavzw-554292805?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZVAXAA",
+  "in_stock" : true,
+  "price" : 699.99,
+  "name" : "Galaxy S26 FE 128GB (Unlocked)",
+  "categories" : [ "Galaxy S26 FE Enterprise Edition", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 128GB (Unlocked), Blueberry",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-128gb-unlocked-sku-sm-s741uzvaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzvaxaa/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzvaxaa-554292824?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S741UZVEXAA",
+  "in_stock" : true,
+  "price" : 799.99,
+  "name" : "Galaxy S26 FE 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 FE Enterprise Edition", "Mobile Phone" ],
+  "description" : "Galaxy S26 FE 256GB (Unlocked), Blueberry",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-fe/buy/galaxy-s26-fe-256gb-unlocked-sku-sm-s741uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s741uzvexaa/gallery/us-galaxy-s26-fe-sm-s741-sm-s741uzvexaa-554292862?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UDBAATT",
+  "in_stock" : false,
+  "price" : 799.99,
+  "name" : "Galaxy S25 128GB (AT&T)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 128GB (AT&T), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-128gb-at-t-sku-sm-s931udbaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931udbaatt/gallery/us-galaxy-s25-s931-551170-551170-sm-s931udbaatt-548475727?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UDBAXAA",
+  "in_stock" : false,
+  "price" : 799.99,
+  "name" : "Galaxy S25 128GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 128GB (Unlocked), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-128gb-unlocked-sku-sm-s931udbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931udbaxaa/gallery/us-galaxy-s25-s931-551170-sm-s931udbaxaa-547068504?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UDBAXAU",
+  "in_stock" : false,
+  "price" : 799.99,
+  "name" : "Galaxy S25 128GB (T-Mobile)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 128GB (T-Mobile), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-128gb-t-mobile-sku-sm-s931udbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931udbaxau/gallery/us-galaxy-s25-s931-551170-551170-sm-s931udbaxau-548475784?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UDBEXAA",
+  "in_stock" : false,
+  "price" : 899.99,
+  "name" : "Galaxy S25 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 256GB (Unlocked), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-256gb-unlocked-sku-sm-s931udbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931udbexaa/gallery/us-galaxy-s25-s931-551170-551170-sm-s931udbexaa-548475860?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931ULGEXAA",
+  "in_stock" : false,
+  "price" : 899.99,
+  "name" : "Galaxy S25 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 256GB (Unlocked), Mint",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-256gb-unlocked-sku-sm-s931ulgexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931ulgexaa/gallery/us-galaxy-s25-s931-551170-551170-sm-s931ulgexaa-548476204?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UZDEXAA",
+  "in_stock" : false,
+  "price" : 899.99,
+  "name" : "Galaxy S25 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 256GB (Unlocked), Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-256gb-unlocked-sku-sm-s931uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/2501/gallery/us-galaxy-s25-s931-536522-sm-s931uzdexaa-544904947?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UZKAXAA",
+  "in_stock" : false,
+  "price" : 799.99,
+  "name" : "Galaxy S25 128GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 128GB (Unlocked), Blueblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-128gb-unlocked-sku-sm-s931uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931uzkaxaa/gallery/us-galaxy-s25-s931-536522-536522-sm-s931uzkaxaa-548437731?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UZKEXAA",
+  "in_stock" : false,
+  "price" : 899.99,
+  "name" : "Galaxy S25 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 256GB (Unlocked), Blueblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-256gb-unlocked-sku-sm-s931uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/2501/gallery/us-galaxy-s25-s931-536522-sm-s931uzkexaa-544904966?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UZSAATT",
+  "in_stock" : false,
+  "price" : 799.99,
+  "name" : "Galaxy S25 128GB (AT&T)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 128GB (AT&T), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-128gb-at-t-sku-sm-s931uzsaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931uzsaatt/gallery/us-galaxy-s25-s931-551170-551170-sm-s931uzsaatt-548476242?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S931UZSEXAA",
+  "in_stock" : false,
+  "price" : 899.99,
+  "name" : "Galaxy S25 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 256GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-256gb-unlocked-sku-sm-s931uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s931uzsexaa/gallery/us-galaxy-s25-s931-551170-551170-sm-s931uzsexaa-548476377?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S936UDBAATT",
+  "in_stock" : false,
+  "price" : 999.99,
+  "name" : "Galaxy S25+ 256GB (AT&T)",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ 256GB (AT&T), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-plus-256gb-at-t-sku-sm-s936udbaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s936udbaatt/gallery/us-galaxy-s25-s936-536278-sm-s936udbaatt-548474782?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S936UDBAXAA",
+  "in_stock" : false,
+  "price" : 999.99,
+  "name" : "Galaxy S25+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ 256GB (Unlocked), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-plus-256gb-unlocked-sku-sm-s936udbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/2501/gallery/us-galaxy-s25-s936-sm-s936udbaxaa-544888305?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S936UDBAXAU",
+  "in_stock" : false,
+  "price" : 999.99,
+  "name" : "Galaxy S25+ 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ 256GB (T-Mobile), Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25/buy/galaxy-s25-plus-256gb-t-mobile-sku-sm-s936udbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s936udbaxau/gallery/us-galaxy-s25-s936-536278-sm-s936udbaxau-548474839?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937ULBAVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S25 Edge 256GB (Verizon)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 256GB (Verizon), Titanium Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-256gb-verizon-sku-sm-s937ulbavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937ulbavzw/gallery/us-galaxy-s25-edge-s937-sm-s937ulbavzw-547157363?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937ULBAXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S25 Edge 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 256GB (T-Mobile), Titanium Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-256gb-t-mobile-sku-sm-s937ulbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937ulbaxau/gallery/us-galaxy-s25-edge-s937-sm-s937ulbaxau-547157677?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937ULBEVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Edge 512GB (Verizon)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 512GB (Verizon), Titanium Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-verizon-sku-sm-s937ulbevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937ulbevzw/gallery/us-galaxy-s25-edge-s937-sm-s937ulbevzw-547157787?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937ULBEXAA",
+  "in_stock" : false,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Edge 512GB (Unlocked)",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 512GB (Unlocked), Titanium Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937ulbexaa/gallery/us-galaxy-s25-edge-s937-sm-s937ulbexaa-547157822?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZKAXAU",
+  "in_stock" : false,
+  "price" : 1099.99,
+  "name" : "Galaxy S25 Edge 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 256GB (T-Mobile), Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-256gb-t-mobile-sku-sm-s937uzkaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzkaxau/gallery/us-galaxy-s25-edge-s937-sm-s937uzkaxau-547158007?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZKEVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Edge 512GB (Verizon)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 512GB (Verizon), Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-verizon-sku-sm-s937uzkevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzkevzw/gallery/us-galaxy-s25-edge-s937-sm-s937uzkevzw-547158080?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZKEXAA",
+  "in_stock" : false,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Edge 512GB (Unlocked)",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 512GB (Unlocked), Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzkexaa/gallery/us-galaxy-s25-edge-s937-sm-s937uzkexaa-547158134?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZKEXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Edge 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 512GB (T-Mobile), Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-t-mobile-sku-sm-s937uzkexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzkexau/gallery/us-galaxy-s25-edge-s937-sm-s937uzkexau-547158209?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZSAVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S25 Edge 256GB (Verizon)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 256GB (Verizon), Titanium Silver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-256gb-verizon-sku-sm-s937uzsavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzsavzw/gallery/us-galaxy-s25-edge-s937-sm-s937uzsavzw-547158526?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZSAXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S25 Edge 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 Edge", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 256GB (T-Mobile), Titanium Silver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-256gb-t-mobile-sku-sm-s937uzsaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzsaxau/gallery/us-galaxy-s25-edge-s937-sm-s937uzsaxau-547158622?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S937UZSEXAA",
+  "in_stock" : false,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Edge 512GB (Unlocked)",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge 512GB (Unlocked), Titanium Silver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s937uzsexaa/gallery/us-galaxy-s25-edge-s937-sm-s937uzsexaa-547158898?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S938UZBAVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S25 Ultra 256GB (Verizon)",
+  "categories" : [ "Galaxy S25 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra 256GB (Verizon), Titanium Silverblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-256gb-verizon-sku-sm-s938uzbavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzbavzw/gallery/us-galaxy-s25-s938-536276-sm-s938uzbavzw-548617252?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S938UZKEATT",
+  "in_stock" : false,
+  "price" : 1419.99,
+  "name" : "Galaxy S25 Ultra 512GB (AT&T)",
+  "categories" : [ "Galaxy S25 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra 512GB (AT&T), Titanium Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-512gb-at-t-sku-sm-s938uzkeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkeatt/gallery/us-galaxy-s25-s938-536276-sm-s938uzkeatt-548617850?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S938UZKEXAA",
+  "in_stock" : false,
+  "price" : 1419.99,
+  "name" : "Galaxy S25 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra 512GB (Unlocked), Titanium Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-512gb-unlocked-sku-sm-s938uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkexaa/gallery/us-galaxy-s25-s938-536276-sm-s938uzkexaa-548617962?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S938UZKFXAA",
+  "in_stock" : false,
+  "price" : 1659.99,
+  "name" : "Galaxy S25 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra 1TB (Unlocked), Titanium Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-1tb-unlocked-sku-sm-s938uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkfxaa/gallery/us-galaxy-s25-s938-536276-sm-s938uzkfxaa-548618037?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S938UZSEXAU",
+  "in_stock" : false,
+  "price" : 1419.99,
+  "name" : "Galaxy S25 Ultra 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S25 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra 512GB (T-Mobile), Titanium Whitesilver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-512gb-t-mobile-sku-sm-s938uzsexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzsexau/gallery/us-galaxy-s25-s938-536276-sm-s938uzsexau-548618370?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBEATT",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (AT&T), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-at-t-sku-sm-s942ulbeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbeatt-550994287?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBEVZW",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Verizon), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-verizon-sku-sm-s942ulbevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbevzw-550995213?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBEXAA",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbexaa-550995232?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBEXAU",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (T-Mobile), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-t-mobile-sku-sm-s942ulbexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbexau-550995251?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBFATT",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (AT&T), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-at-t-sku-sm-s942ulbfatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbfatt-550995270?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBFVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Verizon), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-verizon-sku-sm-s942ulbfvzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbfvzw-550995289?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942ULBFXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-unlocked-sku-sm-s942ulbfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942ulbfxaa-550995308?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZDEXAA",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzdexaa-550995346?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZDFXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-unlocked-sku-sm-s942uzdfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzdfxaa-550995365?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKEATT",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-at-t-sku-sm-s942uzkeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkeatt-550995384?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKEVZW",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-verizon-sku-sm-s942uzkevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkevzw-550995403?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKEXAA",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkexaa-550995422?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKEXAU",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-t-mobile-sku-sm-s942uzkexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkexau-550995441?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKFATT",
+  "in_stock" : false,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-at-t-sku-sm-s942uzkfatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkfatt-550995460?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKFVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-verizon-sku-sm-s942uzkfvzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkfvzw-550995479?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKFXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-unlocked-sku-sm-s942uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkfxaa-550995498?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZKFXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-t-mobile-sku-sm-s942uzkfxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzkfxau-550995517?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZSEXAA",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzsexaa-550995536?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZSFXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-unlocked-sku-sm-s942uzsfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzsfxaa-550995555?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVEATT",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (AT&T), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-at-t-sku-sm-s942uzveatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzveatt-550995574?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVEVZW",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Verizon), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-verizon-sku-sm-s942uzvevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvevzw-550995593?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVEXAA",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvexaa-550995612?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVEXAU",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (T-Mobile), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-t-mobile-sku-sm-s942uzvexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvexau-550995631?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVFATT",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (AT&T), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-at-t-sku-sm-s942uzvfatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvfatt-550995650?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVFVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Verizon), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-verizon-sku-sm-s942uzvfvzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvfvzw-550995669?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVFXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-unlocked-sku-sm-s942uzvfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvfxaa-550995688?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZVFXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (T-Mobile), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-t-mobile-sku-sm-s942uzvfxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzvfxau-550995707?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWEATT",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (AT&T), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-at-t-sku-sm-s942uzweatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzweatt-550995726?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWEVZW",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Verizon), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-verizon-sku-sm-s942uzwevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzwevzw-550995745?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWEXAA",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzwexaa-550995764?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWEXAU",
+  "in_stock" : true,
+  "price" : 899.99,
+  "name" : "Galaxy S26 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 256GB (T-Mobile), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-t-mobile-sku-sm-s942uzwexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzwexau-550995783?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWFATT",
+  "in_stock" : false,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (AT&T)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (AT&T), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-at-t-sku-sm-s942uzwfatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzwfatt-550995802?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWFVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Verizon)",
+  "categories" : [ "Galaxy S26", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Verizon), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-verizon-sku-sm-s942uzwfvzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzwfvzw-550995821?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S942UZWFXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 512GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-512gb-unlocked-sku-sm-s942uzwfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s942-sm-s942uzwfxaa-550995840?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBAATT",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (AT&T), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-at-t-sku-sm-s947ulbaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbaatt-550993785?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBAVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Verizon), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-verizon-sku-sm-s947ulbavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbavzw-550994538?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBAXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-unlocked-sku-sm-s947ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbaxaa-550994557?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBAXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (T-Mobile), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-t-mobile-sku-sm-s947ulbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbaxau-550994576?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBEATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (AT&T), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-at-t-sku-sm-s947ulbeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbeatt-550994595?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBEVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Verizon), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-verizon-sku-sm-s947ulbevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbevzw-550994614?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBEXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-unlocked-sku-sm-s947ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbexaa-550994633?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947ULBEXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (T-Mobile), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-t-mobile-sku-sm-s947ulbexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947ulbexau-550994652?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZDAXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-unlocked-sku-sm-s947uzdaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzdaxaa-550994671?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZDEXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-unlocked-sku-sm-s947uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzdexaa-550994690?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKAATT",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-at-t-sku-sm-s947uzkaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkaatt-550994709?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKAVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-verizon-sku-sm-s947uzkavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkavzw-550994728?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKAXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-unlocked-sku-sm-s947uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkaxaa-550994747?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKAXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-t-mobile-sku-sm-s947uzkaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkaxau-550994766?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKEATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-at-t-sku-sm-s947uzkeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkeatt-550994785?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKEVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-verizon-sku-sm-s947uzkevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkevzw-550994804?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKEXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-unlocked-sku-sm-s947uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkexaa-550994823?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZKEXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-t-mobile-sku-sm-s947uzkexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzkexau-550994842?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZSAXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-unlocked-sku-sm-s947uzsaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzsaxaa-550994861?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZSEXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-unlocked-sku-sm-s947uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzsexaa-550994880?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVAATT",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (AT&T), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-at-t-sku-sm-s947uzvaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvaatt-550994899?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVAVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Verizon), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-verizon-sku-sm-s947uzvavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvavzw-550994918?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVAXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-unlocked-sku-sm-s947uzvaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvaxaa-550994937?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVAXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (T-Mobile), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-t-mobile-sku-sm-s947uzvaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvaxau-550994956?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVEATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (AT&T), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-at-t-sku-sm-s947uzveatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzveatt-550994975?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVEVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Verizon), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-verizon-sku-sm-s947uzvevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvevzw-550994994?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVEXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-unlocked-sku-sm-s947uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvexaa-550995013?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZVEXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (T-Mobile), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-t-mobile-sku-sm-s947uzvexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzvexau-550995033?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWAATT",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (AT&T), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-at-t-sku-sm-s947uzwaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwaatt-550995052?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWAVZW",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Verizon), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-verizon-sku-sm-s947uzwavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwavzw-550995071?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWAXAA",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-unlocked-sku-sm-s947uzwaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwaxaa-550995090?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWAXAU",
+  "in_stock" : true,
+  "price" : 1099.99,
+  "name" : "Galaxy S26+ 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 256GB (T-Mobile), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-256gb-t-mobile-sku-sm-s947uzwaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwaxau-550995109?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWEATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (AT&T), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-at-t-sku-sm-s947uzweatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzweatt-550995128?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWEVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Verizon), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-verizon-sku-sm-s947uzwevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwevzw-550995148?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWEXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-unlocked-sku-sm-s947uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwexaa-550995167?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S947UZWEXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26+ 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Plus", "Mobile Phone" ],
+  "description" : "Galaxy S26+ 512GB (T-Mobile), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-plus/buy/galaxy-s26-plus-512gb-t-mobile-sku-sm-s947uzwexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-s947-sm-s947uzwexau-550995186?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBAATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (AT&T), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-at-t-sku-sm-s948ulbaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbaatt-550992840?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBAVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Verizon), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-verizon-sku-sm-s948ulbavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbavzw-550992877?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBAXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-unlocked-sku-sm-s948ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbaxaa-550992914?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBAXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (T-Mobile), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-t-mobile-sku-sm-s948ulbaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbaxau-550992951?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBEATT",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (AT&T), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-at-t-sku-sm-s948ulbeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbeatt-550992988?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBEVZW",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Verizon), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-verizon-sku-sm-s948ulbevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbevzw-550993026?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBEXAA",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-unlocked-sku-sm-s948ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbexaa-550993063?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBEXAU",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (T-Mobile), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-t-mobile-sku-sm-s948ulbexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbexau-550993100?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948ULBFXAA",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Unlocked), Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-unlocked-sku-sm-s948ulbfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948ulbfxaa-550993137?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZDAXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-unlocked-sku-sm-s948uzdaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzdaxaa-550993174?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZDEXAA",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-unlocked-sku-sm-s948uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzdexaa-550993211?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZDFXAA",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Unlocked), Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-unlocked-sku-sm-s948uzdfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzdfxaa-550993248?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKAATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-at-t-sku-sm-s948uzkaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkaatt-550993285?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKAVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-verizon-sku-sm-s948uzkavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkavzw-550993322?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKAXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-unlocked-sku-sm-s948uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkaxaa-550993359?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKAXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-t-mobile-sku-sm-s948uzkaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkaxau-550993396?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKEATT",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-at-t-sku-sm-s948uzkeatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkeatt-550993433?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKEVZW",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-verizon-sku-sm-s948uzkevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkevzw-550993470?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKEXAA",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-unlocked-sku-sm-s948uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkexaa-550993507?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKEXAU",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-t-mobile-sku-sm-s948uzkexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkexau-550993544?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKFATT",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (AT&T), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-at-t-sku-sm-s948uzkfatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkfatt-550993581?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKFVZW",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Verizon), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-verizon-sku-sm-s948uzkfvzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkfvzw-550993618?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKFXAA",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Unlocked), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-unlocked-sku-sm-s948uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkfxaa-550993655?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZKFXAU",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (T-Mobile), Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-t-mobile-sku-sm-s948uzkfxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzkfxau-550993692?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZSAXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-unlocked-sku-sm-s948uzsaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzsaxaa-550993729?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZSEXAA",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-unlocked-sku-sm-s948uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzsexaa-550993766?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZSFXAA",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Unlocked), Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-unlocked-sku-sm-s948uzsfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzsfxaa-550993823?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVAATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (AT&T), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-at-t-sku-sm-s948uzvaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvaatt-550993860?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVAVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Verizon), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-verizon-sku-sm-s948uzvavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvavzw-550993897?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVAXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-unlocked-sku-sm-s948uzvaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvaxaa-550993934?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVAXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (T-Mobile), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-t-mobile-sku-sm-s948uzvaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvaxau-550993971?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVEATT",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (AT&T), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-at-t-sku-sm-s948uzveatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzveatt-550994009?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVEVZW",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Verizon), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-verizon-sku-sm-s948uzvevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvevzw-550994046?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVEXAA",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-unlocked-sku-sm-s948uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvexaa-550994083?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVEXAU",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (T-Mobile), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-t-mobile-sku-sm-s948uzvexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvexau-550994120?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZVFXAA",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Unlocked), Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-unlocked-sku-sm-s948uzvfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzvfxaa-550994157?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWAATT",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (AT&T), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-at-t-sku-sm-s948uzwaatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwaatt-550994194?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWAVZW",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Verizon), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-verizon-sku-sm-s948uzwavzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwavzw-550994231?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWAXAA",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-unlocked-sku-sm-s948uzwaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwaxaa-550994268?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWAXAU",
+  "in_stock" : true,
+  "price" : 1299.99,
+  "name" : "Galaxy S26 Ultra 256GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 256GB (T-Mobile), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-256gb-t-mobile-sku-sm-s948uzwaxau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwaxau-550994324?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWEATT",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (AT&T)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (AT&T), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-at-t-sku-sm-s948uzweatt",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzweatt-550994362?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWEVZW",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Verizon)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Verizon), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-verizon-sku-sm-s948uzwevzw",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwevzw-550994399?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWEXAA",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-unlocked-sku-sm-s948uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwexaa-550994437?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWEXAU",
+  "in_stock" : true,
+  "price" : 1499.99,
+  "name" : "Galaxy S26 Ultra 512GB (T-Mobile)",
+  "categories" : [ "Galaxy S26 Ultra", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 512GB (T-Mobile), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-512gb-t-mobile-sku-sm-s948uzwexau",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwexau-550994474?$ORIGIN_PNG$"
+}, {
+  "id" : "SM-S948UZWFXAA",
+  "in_stock" : true,
+  "price" : 1799.99,
+  "name" : "Galaxy S26 Ultra 1TB (Unlocked)",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra 1TB (Unlocked), White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/galaxy-s26-ultra-1tb-unlocked-sku-sm-s948uzwfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/s2602/gallery/us-galaxy-s26-ultra-s948-sm-s948uzwfxaa-550994511?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S711UZAAXAA",
+  "in_stock" : false,
+  "price" : 389.0,
+  "name" : "Galaxy S23 FE Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S23 FE Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23 FE Certified Re-Newed 128GB, Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-fe-certified-re-newed-128gb-sku-sm5s711uzaaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s711uzaaxaa/gallery/us-galaxy-s23-fe-s711-560462-sm5s711uzaaxaa-548442604?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S721UZKAXAA",
+  "in_stock" : true,
+  "price" : 489.0,
+  "name" : "Galaxy S24 FE Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S24 FE Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24 FE Certified Re-Newed 128GB, Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-fe-certified-re-newed-128gb-sku-sm5s721uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s721uzkaxaa/gallery/us-galaxy-s24-fe-s721-564939-sm5s721uzkaxaa-549103699?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S721UZKEXAA",
+  "in_stock" : false,
+  "price" : 519.0,
+  "name" : "Galaxy S24 FE Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S24 FE Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24 FE Certified Re-Newed 256GB, Graphite",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-fe-certified-re-newed-256gb-sku-sm5s721uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s721uzkexaa/gallery/us-galaxy-s24-fe-s721-564939-sm5s721uzkexaa-549103718?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731UDBAXAA",
+  "in_stock" : true,
+  "price" : 549.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 128GB, Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-128gb-sku-sm5s731udbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731udbaxaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731udbaxaa-551384328?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731UDBEXAA",
+  "in_stock" : true,
+  "price" : 599.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 256GB, Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-256gb-sku-sm5s731udbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731udbexaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731udbexaa-551384351?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731ULBAXAA",
+  "in_stock" : false,
+  "price" : 549.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 128GB, Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-128gb-sku-sm5s731ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731ulbaxaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731ulbaxaa-551384374?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731ULBEXAA",
+  "in_stock" : false,
+  "price" : 599.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 256GB, Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-256gb-sku-sm5s731ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731ulbexaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731ulbexaa-551384397?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731UZKAXAA",
+  "in_stock" : false,
+  "price" : 549.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 128GB, Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-128gb-sku-sm5s731uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731uzkaxaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731uzkaxaa-551384420?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731UZKEXAA",
+  "in_stock" : false,
+  "price" : 599.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 256GB, Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-256gb-sku-sm5s731uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731uzkexaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731uzkexaa-551384443?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731UZWAXAA",
+  "in_stock" : false,
+  "price" : 549.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 128GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-128gb-sku-sm5s731uzwaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731uzwaxaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731uzwaxaa-551384466?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S731UZWEXAA",
+  "in_stock" : false,
+  "price" : 599.0,
+  "name" : "Galaxy S25 FE Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 FE", "Mobile Phone" ],
+  "description" : "Galaxy S25 FE Certified Re-Newed 256GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-fe-certified-re-newed-256gb-sku-sm5s731uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s731uzwexaa/gallery/us-galaxy-s25-fe-sm-s731-583011-sm5s731uzwexaa-551384489?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S901UZGAXAA",
+  "in_stock" : false,
+  "price" : 499.0,
+  "name" : "Galaxy S22, Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S22", "Mobile Phone" ],
+  "description" : "Galaxy S22, Certified Re-Newed 128GB, Green",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s/certified-re-newed-store-buy-galaxy-s22-128gb-certified-re-newed-sku-sm5s901uzgaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s901uzgaxaa/gallery/us-galaxy-s22-s901-575499-sm5s901uzgaxaa-551322188?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S901UZKEXAA",
+  "in_stock" : false,
+  "price" : 469.0,
+  "name" : "Galaxy S22 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S22", "Mobile Phone" ],
+  "description" : "Galaxy S22 Certified Re-Newed 256GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s22-certified-re-newed-256gb-sku-sm5s901uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s901uzkexaa/gallery/us-galaxy-s22-s901-sm5s901uzkexaa-548730043?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S911UZKAXAA",
+  "in_stock" : false,
+  "price" : 439.0,
+  "name" : "Galaxy S23 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S23 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23 Certified Re-Newed 128GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-certified-re-newed-128gb-sku-sm5s911uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s911uzkaxaa/gallery/us-galaxy-s23-s911-sm5s911uzkaxaa-549150146?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S911UZKEXAA",
+  "in_stock" : true,
+  "price" : 469.0,
+  "name" : "Galaxy S23 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S23 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23 Certified Re-Newed 256GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-certified-re-newed-256gb-sku-sm5s911uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s911uzkexaa/gallery/us-galaxy-s23-s911-sm5s911uzkexaa-549150165?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S916UZKAXAA",
+  "in_stock" : false,
+  "price" : 549.0,
+  "name" : "Galaxy S23+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S23plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23+ Certified Re-Newed 256GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-plus-certified-re-newed-256gb-sku-sm5s916uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s916uzkaxaa/gallery/us-galaxy-s23-s916-sm5s916uzkaxaa-548994892?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S916UZKEXAA",
+  "in_stock" : false,
+  "price" : 599.0,
+  "name" : "Galaxy S23+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S23plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23+ Certified Re-Newed 512GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-plus-certified-re-newed-512gb-sku-sm5s916uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s916uzkexaa/gallery/us-galaxy-s23-s916-sm5s916uzkexaa-548994912?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S918UZGAXAA",
+  "in_stock" : false,
+  "price" : 659.0,
+  "name" : "Galaxy S23 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S23 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23 Ultra Certified Re-Newed 256GB, Green",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-ultra-certified-re-newed-256gb-sku-sm5s918uzgaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s918uzgaxaa/gallery/us-galaxy-s23-s918-sm5s918uzgaxaa-549145864?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S918UZKAXAA",
+  "in_stock" : false,
+  "price" : 659.0,
+  "name" : "Galaxy S23 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S23 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23 Ultra Certified Re-Newed 256GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-ultra-certified-re-newed-256gb-sku-sm5s918uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s918uzkaxaa/gallery/us-galaxy-s23-s918-sm5s918uzkaxaa-549145909?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S918UZKFXAA",
+  "in_stock" : false,
+  "price" : 739.0,
+  "name" : "Galaxy S23 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S23 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S23 Ultra Certified Re-Newed 512GB, Phantom Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s23-ultra-certified-re-newed-512gb-sku-sm5s918uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s918uzkfxaa/gallery/us-galaxy-s23-s918-sm5s918uzkfxaa-549145951?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S921UZKAXAA",
+  "in_stock" : false,
+  "price" : 519.0,
+  "name" : "Galaxy S24 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S24 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24 Certified Re-Newed 128GB, Onyx Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-certified-re-newed-128gb-sku-sm5s921uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s921uzkaxaa/gallery/us-galaxy-s24-563942-sm5s921uzkaxaa-548942581?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S921UZKEXAA",
+  "in_stock" : true,
+  "price" : 549.0,
+  "name" : "Galaxy S24 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S24 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24 Certified Re-Newed 256GB, Onyx Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-certified-re-newed-256gb-sku-sm5s921uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s921uzkexaa/gallery/us-galaxy-s24-563942-sm5s921uzkexaa-548942602?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S926UZKAXAA",
+  "in_stock" : false,
+  "price" : 649.0,
+  "name" : "Galaxy S24+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S24plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24+ Certified Re-Newed 256GB, Onyx Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-plus-certified-re-newed-256gb-sku-sm5s926uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s926uzkaxaa/gallery/us-galaxy-s24-plus-563944-sm5s926uzkaxaa-548943318?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S926UZKEXAA",
+  "in_stock" : false,
+  "price" : 699.0,
+  "name" : "Galaxy S24+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S24plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24+ Certified Re-Newed 512GB, Onyx Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-plus-certified-re-newed-512gb-sku-sm5s926uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s926uzkexaa/gallery/us-galaxy-s24-plus-563944-sm5s926uzkexaa-548943337?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S928UZKEXAA",
+  "in_stock" : false,
+  "price" : 849.0,
+  "name" : "Galaxy S24 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S24 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24 Ultra Certified Re-Newed 256GB, Titanium Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-ultra-certified-re-newed-256gb-sku-sm5s928uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s928uzkexaa/gallery/us-galaxy-s24-s928-562376-sm5s928uzkexaa-548727674?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S928UZKFXAA",
+  "in_stock" : false,
+  "price" : 899.0,
+  "name" : "Galaxy S24 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S24 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S24 Ultra Certified Re-Newed 512GB, Titanium Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s24-ultra-certified-re-newed-512gb-sku-sm5s928uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s928uzkfxaa/gallery/us-galaxy-s24-s928-562376-sm5s928uzkfxaa-548727785?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UDBEXAA",
+  "in_stock" : false,
+  "price" : 629.0,
+  "name" : "Galaxy S25 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 256GB, Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-256gb-sku-sm5s931udbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931udbexaa/gallery/us-galaxy-s25-s931-sm5s931udbexaa-549765991?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931ULBEXAA",
+  "in_stock" : false,
+  "price" : 629.0,
+  "name" : "Galaxy S25 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 256GB, Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-256gb-sku-sm5s931ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931ulbexaa/gallery/us-galaxy-s25-s931-sm5s931ulbexaa-549766029?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931ULGAXAA",
+  "in_stock" : true,
+  "price" : 599.0,
+  "name" : "Galaxy S25 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 128GB, Mint",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-128gb-sku-sm5s931ulgaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931ulgaxaa/gallery/us-galaxy-s25-s931-sm5s931ulgaxaa-549766048?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZDAXAA",
+  "in_stock" : false,
+  "price" : 599.0,
+  "name" : "Galaxy S25 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 128GB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-128gb-sku-sm5s931uzdaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzdaxaa/gallery/us-galaxy-s25-s931-sm5s931uzdaxaa-549766086?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZDEXAA",
+  "in_stock" : false,
+  "price" : 629.0,
+  "name" : "Galaxy S25 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 256GB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-256gb-sku-sm5s931uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzdexaa/gallery/us-galaxy-s25-s931-sm5s931uzdexaa-549766105?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZKAXAA",
+  "in_stock" : false,
+  "price" : 599.0,
+  "name" : "Galaxy S25 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 128GB, Blueblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-128gb-sku-sm5s931uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzkaxaa/gallery/us-galaxy-s25-s931-sm5s931uzkaxaa-549766124?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZKEXAA",
+  "in_stock" : false,
+  "price" : 629.0,
+  "name" : "Galaxy S25 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 256GB, Blueblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-256gb-sku-sm5s931uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzkexaa/gallery/us-galaxy-s25-s931-sm5s931uzkexaa-549766143?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZRAXAA",
+  "in_stock" : true,
+  "price" : 599.0,
+  "name" : "Galaxy S25 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 128GB, Coralred",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-128gb-sku-sm5s931uzraxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzraxaa/gallery/us-galaxy-s25-s931-sm5s931uzraxaa-549766162?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZREXAA",
+  "in_stock" : true,
+  "price" : 629.0,
+  "name" : "Galaxy S25 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 256GB, Coralred",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-256gb-sku-sm5s931uzrexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzrexaa/gallery/us-galaxy-s25-s931-sm5s931uzrexaa-549766181?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZSAXAA",
+  "in_stock" : true,
+  "price" : 599.0,
+  "name" : "Galaxy S25 Certified Re-Newed 128GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 128GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-128gb-sku-sm5s931uzsaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzsaxaa/gallery/us-galaxy-s25-s931-sm5s931uzsaxaa-549766200?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S931UZSEXAA",
+  "in_stock" : true,
+  "price" : 629.0,
+  "name" : "Galaxy S25 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25", "Mobile Phone" ],
+  "description" : "Galaxy S25 Certified Re-Newed 256GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-certified-re-newed-256gb-sku-sm5s931uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s931uzsexaa/gallery/us-galaxy-s25-s931-sm5s931uzsexaa-549766219?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UDBAXAA",
+  "in_stock" : false,
+  "price" : 749.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 256GB, Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-256gb-sku-sm5s936udbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936udbaxaa/gallery/us-galaxy-s25-s936-569788-sm5s936udbaxaa-549765716?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UDBEXAA",
+  "in_stock" : false,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Navy",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936udbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936udbexaa/gallery/us-galaxy-s25-s936-569788-569788-sm5s936udbexaa-551384591?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936ULBAXAA",
+  "in_stock" : true,
+  "price" : 749.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 256GB, Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-256gb-sku-sm5s936ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936ulbaxaa/gallery/us-galaxy-s25-s936-569788-sm5s936ulbaxaa-549765735?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936ULBEXAA",
+  "in_stock" : false,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936ulbexaa/gallery/us-galaxy-s25-s936-569788-569788-sm5s936ulbexaa-550553889?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936ULGEXAA",
+  "in_stock" : false,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Mint",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936ulgexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936ulgexaa/gallery/us-galaxy-s25-s936-569788-569788-sm5s936ulgexaa-551384610?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZDAXAA",
+  "in_stock" : true,
+  "price" : 749.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 256GB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-256gb-sku-sm5s936uzdaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzdaxaa/gallery/us-galaxy-s25-s936-569788-sm5s936uzdaxaa-549765773?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZDEXAA",
+  "in_stock" : false,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzdexaa/gallery/us-galaxy-s25-s936-569788-569788-sm5s936uzdexaa-551384629?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZKAXAA",
+  "in_stock" : false,
+  "price" : 749.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 256GB, Blueblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-256gb-sku-sm5s936uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzkaxaa/gallery/us-galaxy-s25-s936-569788-sm5s936uzkaxaa-549765792?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZKEXAA",
+  "in_stock" : false,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Blueblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzkexaa/gallery/us-galaxy-s25-s936-569788-sm5s936uzkexaa-549765811?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZRAXAA",
+  "in_stock" : true,
+  "price" : 749.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 256GB, Coralred",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-256gb-sku-sm5s936uzraxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzraxaa/gallery/us-galaxy-s25-s936-569788-sm5s936uzraxaa-549765830?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZREXAA",
+  "in_stock" : false,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Coralred",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936uzrexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzrexaa/gallery/us-galaxy-s25-s936-569788-569788-sm5s936uzrexaa-550553908?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S936UZSEXAA",
+  "in_stock" : true,
+  "price" : 799.0,
+  "name" : "Galaxy S25+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25+", "Mobile Phone" ],
+  "description" : "Galaxy S25+ Certified Re-Newed 512GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-plus-certified-re-newed-512gb-sku-sm5s936uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s936uzsexaa/gallery/us-galaxy-s25-s936-569788-569788-sm5s936uzsexaa-551384648?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S937ULBAXAA",
+  "in_stock" : false,
+  "price" : 829.0,
+  "name" : "Galaxy S25 Edge Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge Certified Re-Newed 256GB, Titanium Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-edge-certified-re-newed-256gb-sku-sm5s937ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s937ulbaxaa/gallery/us-galaxy-s25-s937-570107-sm5s937ulbaxaa-551365994?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S937ULBEXAA",
+  "in_stock" : false,
+  "price" : 879.0,
+  "name" : "Galaxy S25 Edge Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge Certified Re-Newed 512GB, Titanium Icyblue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-edge-certified-re-newed-512gb-sku-sm5s937ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s937ulbexaa/gallery/us-galaxy-s25-s937-570107-sm5s937ulbexaa-551366014?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S937UZKAXAA",
+  "in_stock" : true,
+  "price" : 829.0,
+  "name" : "Galaxy S25 Edge Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge Certified Re-Newed 256GB, Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-edge-certified-re-newed-256gb-sku-sm5s937uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s937uzkaxaa/gallery/us-galaxy-s25-s937-sm5s937uzkaxaa-549835442?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S937UZKEXAA",
+  "in_stock" : true,
+  "price" : 879.0,
+  "name" : "Galaxy S25 Edge Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge Certified Re-Newed 512GB, Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-edge-certified-re-newed-512gb-sku-sm5s937uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s937uzkexaa/gallery/us-galaxy-s25-s937-sm5s937uzkexaa-549835470?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S937UZSAXAA",
+  "in_stock" : false,
+  "price" : 829.0,
+  "name" : "Galaxy S25 Edge Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge Certified Re-Newed 256GB, Titanium Silver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-edge-certified-re-newed-256gb-sku-sm5s937uzsaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s937uzsaxaa/gallery/us-galaxy-s25-s937-570107-sm5s937uzsaxaa-551366033?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S937UZSEXAA",
+  "in_stock" : true,
+  "price" : 879.0,
+  "name" : "Galaxy S25 Edge Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Edge Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Edge Certified Re-Newed 512GB, Titanium Silver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-edge-certified-re-newed-512gb-sku-sm5s937uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s937uzsexaa/gallery/us-galaxy-s25-s937-570107-sm5s937uzsexaa-551366052?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UAKAXAA",
+  "in_stock" : false,
+  "price" : 979.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 256GB, Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-256gb-sku-sm5s938uakaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uakaxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uakaxaa-549840593?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UAKEXAA",
+  "in_stock" : false,
+  "price" : 1029.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 512GB, Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-512gb-sku-sm5s938uakexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uakexaa/gallery/us-galaxy-s25-s938-570119-sm5s938uakexaa-549840630?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UAKFXAA",
+  "in_stock" : false,
+  "price" : 1129.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 1TB, Titanium Jetblack",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-1tb-sku-sm5s938uakfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uakfxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uakfxaa-549840667?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZDEXAA",
+  "in_stock" : false,
+  "price" : 1029.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 512GB, Titanium Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-512gb-sku-sm5s938uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzdexaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzdexaa-549840852?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZDFXAA",
+  "in_stock" : true,
+  "price" : 1129.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 1TB, Titanium Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-1tb-sku-sm5s938uzdfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzdfxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzdfxaa-549840889?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZGAXAA",
+  "in_stock" : false,
+  "price" : 979.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 256GB, Titanium Jadegreen",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-256gb-sku-sm5s938uzgaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzgaxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzgaxaa-549840926?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZGEXAA",
+  "in_stock" : false,
+  "price" : 1029.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 512GB, Titanium Jadegreen",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-512gb-sku-sm5s938uzgexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzgexaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzgexaa-549840963?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZGFXAA",
+  "in_stock" : true,
+  "price" : 1129.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 1TB, Titanium Jadegreen",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-1tb-sku-sm5s938uzgfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzgfxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzgfxaa-549841000?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZKFXAA",
+  "in_stock" : false,
+  "price" : 1129.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 1TB, Titanium Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-1tb-sku-sm5s938uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzkfxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzkfxaa-549841111?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZSFXAA",
+  "in_stock" : true,
+  "price" : 1129.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 1TB, Titanium Whitesilver",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-1tb-sku-sm5s938uzsfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uzsfxaa/gallery/us-galaxy-s25-s938-570119-sm5s938uzsfxaa-549841222?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S938UZTEXAA",
+  "in_stock" : false,
+  "price" : 1029.0,
+  "name" : "Galaxy S25 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S25 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S25 Ultra Certified Re-Newed 512GB, Titanium Gray",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s25-ultra-certified-re-newed-512gb-sku-sm5s938uztexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s938uztexaa/gallery/us-galaxy-s25-s938-570119-sm5s938uztexaa-549841296?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942ULBEXAA",
+  "in_stock" : false,
+  "price" : 759.0,
+  "name" : "Galaxy S26 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 256GB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-256gb-sku-sm5s942ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942ulbexaa/gallery/us-galaxy-s26-s942-606378-sm5s942ulbexaa-554600062?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942ULBFXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26 Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 512GB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-512gb-sku-sm5s942ulbfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942ulbfxaa/gallery/us-galaxy-s26-s942-606378-sm5s942ulbfxaa-554600081?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZDEXAA",
+  "in_stock" : false,
+  "price" : 759.0,
+  "name" : "Galaxy S26 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 256GB, Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-256gb-sku-sm5s942uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzdexaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzdexaa-554600100?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZDFXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26 Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 512GB, Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-512gb-sku-sm5s942uzdfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzdfxaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzdfxaa-554600119?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZKEXAA",
+  "in_stock" : false,
+  "price" : 759.0,
+  "name" : "Galaxy S26 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 256GB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-256gb-sku-sm5s942uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzkexaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzkexaa-554600139?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZKFXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26 Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 512GB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-512gb-sku-sm5s942uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzkfxaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzkfxaa-554600158?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZSEXAA",
+  "in_stock" : false,
+  "price" : 759.0,
+  "name" : "Galaxy S26 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 256GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-256gb-sku-sm5s942uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzsexaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzsexaa-554600177?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZSFXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26 Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 512GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-512gb-sku-sm5s942uzsfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzsfxaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzsfxaa-554600196?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZVEXAA",
+  "in_stock" : false,
+  "price" : 759.0,
+  "name" : "Galaxy S26 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 256GB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-256gb-sku-sm5s942uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzvexaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzvexaa-554600215?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZVFXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26 Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 512GB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-512gb-sku-sm5s942uzvfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzvfxaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzvfxaa-554600234?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZWEXAA",
+  "in_stock" : false,
+  "price" : 759.0,
+  "name" : "Galaxy S26 Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 256GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-256gb-sku-sm5s942uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzwexaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzwexaa-554600253?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S942UZWFXAA",
+  "in_stock" : false,
+  "price" : 929.0,
+  "name" : "Galaxy S26 Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Certified Re-Newed 512GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-certified-re-newed-512gb-sku-sm5s942uzwfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s942uzwfxaa/gallery/us-galaxy-s26-s942-606378-sm5s942uzwfxaa-554600272?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947ULBAXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 256GB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-256gb-sku-sm5s947ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947ulbaxaa/gallery/us-galaxy-s26-plus-s947-sm5s947ulbaxaa-554620844?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947ULBEXAA",
+  "in_stock" : false,
+  "price" : 1099.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 512GB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-512gb-sku-sm5s947ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947ulbexaa/gallery/us-galaxy-s26-plus-s947-sm5s947ulbexaa-554620863?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZDAXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 256GB, Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-256gb-sku-sm5s947uzdaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzdaxaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzdaxaa-554620882?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZDEXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 512GB, Pink Gold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-512gb-sku-sm5s947uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzdexaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzdexaa-554620901?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZKAXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 256GB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-256gb-sku-sm5s947uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzkaxaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzkaxaa-554620920?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZKEXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 512GB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-512gb-sku-sm5s947uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzkexaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzkexaa-554620939?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZSAXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 256GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-256gb-sku-sm5s947uzsaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzsaxaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzsaxaa-554620958?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZSEXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 512GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-512gb-sku-sm5s947uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzsexaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzsexaa-554620977?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZVAXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 256GB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-256gb-sku-sm5s947uzvaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzvaxaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzvaxaa-554620996?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZVEXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 512GB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-512gb-sku-sm5s947uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzvexaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzvexaa-554621015?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZWAXAA",
+  "in_stock" : true,
+  "price" : 929.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 256GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-256gb-sku-sm5s947uzwaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzwaxaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzwaxaa-554621034?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S947UZWEXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26+ Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Plus Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26+ Certified Re-Newed 512GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-plus-certified-re-newed-512gb-sku-sm5s947uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s947uzwexaa/gallery/us-galaxy-s26-plus-s947-sm5s947uzwexaa-554621053?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948ULBAXAA",
+  "in_stock" : false,
+  "price" : 1099.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 256GB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-256gb-sku-sm5s948ulbaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948ulbaxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948ulbaxaa-554545500?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948ULBEXAA",
+  "in_stock" : true,
+  "price" : 1269.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 512GB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-512gb-sku-sm5s948ulbexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948ulbexaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948ulbexaa-554545537?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948ULBFXAA",
+  "in_stock" : true,
+  "price" : 1529.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 1TB, Sky Blue",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-1tb-sku-sm5s948ulbfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948ulbfxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948ulbfxaa-554545574?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZDAXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 256GB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-256gb-sku-sm5s948uzdaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzdaxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzdaxaa-554545611?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZDEXAA",
+  "in_stock" : true,
+  "price" : 1269.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 512GB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-512gb-sku-sm5s948uzdexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzdexaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzdexaa-554545648?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZDFXAA",
+  "in_stock" : true,
+  "price" : 1529.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 1TB, Pinkgold",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-1tb-sku-sm5s948uzdfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzdfxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzdfxaa-554545685?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZKAXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 256GB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-256gb-sku-sm5s948uzkaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzkaxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzkaxaa-554545723?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZKEXAA",
+  "in_stock" : true,
+  "price" : 1269.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 512GB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-512gb-sku-sm5s948uzkexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzkexaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzkexaa-554545760?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZKFXAA",
+  "in_stock" : false,
+  "price" : 1529.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 1TB, Black",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-1tb-sku-sm5s948uzkfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzkfxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzkfxaa-554545799?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZSAXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 256GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-256gb-sku-sm5s948uzsaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzsaxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzsaxaa-554545836?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZSEXAA",
+  "in_stock" : true,
+  "price" : 1269.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 512GB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-512gb-sku-sm5s948uzsexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzsexaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzsexaa-554545873?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZSFXAA",
+  "in_stock" : true,
+  "price" : 1529.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 1TB, Silver Shadow",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-1tb-sku-sm5s948uzsfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzsfxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzsfxaa-554545910?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZVAXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 256GB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-256gb-sku-sm5s948uzvaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzvaxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzvaxaa-554545947?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZVEXAA",
+  "in_stock" : true,
+  "price" : 1269.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 512GB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-512gb-sku-sm5s948uzvexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzvexaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzvexaa-554545984?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZVFXAA",
+  "in_stock" : false,
+  "price" : 1529.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 1TB, Cobalt Violet",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-1tb-sku-sm5s948uzvfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzvfxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzvfxaa-554546021?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZWAXAA",
+  "in_stock" : true,
+  "price" : 1099.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 256GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 256GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-256gb-sku-sm5s948uzwaxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzwaxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzwaxaa-554546058?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZWEXAA",
+  "in_stock" : true,
+  "price" : 1269.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 512GB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 512GB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-512gb-sku-sm5s948uzwexaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzwexaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzwexaa-554546095?$ORIGIN_PNG$"
+}, {
+  "id" : "SM5S948UZWFXAA",
+  "in_stock" : true,
+  "price" : 1529.0,
+  "name" : "Galaxy S26 Ultra Certified Re-Newed 1TB",
+  "categories" : [ "Galaxy S26 Ultra Certified Re-Newed", "Mobile Phone" ],
+  "description" : "Galaxy S26 Ultra Certified Re-Newed 1TB, White",
+  "url" : "https://www.samsung.com/us/smartphones/galaxy-s-series/certified-re-newed-store/buy/galaxy-s26-ultra-certified-re-newed-1tb-sku-sm5s948uzwfxaa",
+  "currency" : "USD",
+  "image_url" : "https://images.samsung.com/is/image/samsung/p6pim/us/sm5s948uzwfxaa/gallery/us-galaxy-s26-ultra-s948-606022-sm5s948uzwfxaa-554546132?$ORIGIN_PNG$"
+} ]
