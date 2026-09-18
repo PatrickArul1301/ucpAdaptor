@@ -2,7 +2,6 @@ package com.accenture.UCPAdaptor;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -17,36 +16,13 @@ import java.util.List;
 public class CatalogSearchTool {
 
     private final ObjectMapper mapper = new ObjectMapper();
+    private final ProductCatalogService catalogService;
 
-    // ── Product catalog ───────────────────────────────────────────────────────
-
-    private record Product(String id, String name, String description,
-                           List<String> categories, int priceMinorUnits, String currency) {}
-
-    private static final List<Product> CATALOG = List.of(
-            new Product("prod-001", "Wireless Bluetooth Headphones",
-                    "Premium noise-cancelling headphones with 30-hour battery life",
-                    List.of("electronics", "audio"), 12999, "USD"),
-            new Product("prod-002", "Running Shoes",
-                    "Lightweight breathable running shoes with cushioned sole",
-                    List.of("footwear", "sports"), 8999, "USD"),
-            new Product("prod-003", "Coffee Maker",
-                    "12-cup programmable coffee maker with built-in grinder",
-                    List.of("kitchen", "appliances"), 5999, "USD"),
-            new Product("prod-004", "Yoga Mat",
-                    "Extra thick non-slip yoga mat with carrying strap",
-                    List.of("sports", "fitness"), 3499, "USD"),
-            new Product("prod-005", "Laptop Stand",
-                    "Adjustable aluminum laptop stand for desk ergonomics",
-                    List.of("electronics", "accessories"), 4999, "USD"),
-            new Product("prod-006", "Stainless Steel Water Bottle",
-                    "Insulated 32oz water bottle keeps drinks cold for 24 hours",
-                    List.of("outdoor", "accessories"), 2499, "USD")
-    );
+    public CatalogSearchTool(ProductCatalogService catalogService) {
+        this.catalogService = catalogService;
+    }
 
     // ── UCP request param types ───────────────────────────────────────────────
-    // UCP wraps everything under a "catalog" key:
-    // { "meta": {...}, "catalog": { "query": "...", "filters": {...}, "pagination": {...} } }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record PriceFilter(
@@ -66,7 +42,6 @@ public class CatalogSearchTool {
             @JsonProperty("cursor") String cursor
     ) {}
 
-    // The UCP spec wraps params under a "catalog" key
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record CatalogParams(
             @JsonProperty("query") String query,
@@ -75,19 +50,17 @@ public class CatalogSearchTool {
     ) {}
 
     // ── Tool handler ──────────────────────────────────────────────────────────
-    // Spring AI MCP in stateless mode passes the full JSON params object.
-    // UCP sends: { "meta": {...}, "catalog": { "query": "...", ... } }
-    // We accept the "catalog" node and the raw "meta" node (ignored).
 
     @Tool(name = "search_catalog",
             description = """
-              Search the product catalog. Returns matching products with name, description, \
-              price (in dollars), categories, and stock status. \
-              To browse all products leave the query field empty or omit it. \
-              For keyword search use specific product terms (e.g. "headphones", "yoga", "coffee") \
-              — generic phrases like "all products" or "show everything" will return no results. \
-              Supports category filters (electronics, audio, footwear, sports, fitness, kitchen, \
-              appliances, outdoor, accessories) and price range in cents (e.g. max:10000 = $100).
+              Search the Samsung Galaxy S smartphone catalog. Returns matching phones with name, \
+              description (model + color), price (in USD dollars), categories, stock status, \
+              product URL, and image URL. \
+              To browse all Galaxy S phones leave the query field empty or omit it. \
+              For keyword search use specific terms (e.g. "S25", "S24 Ultra", "Navy", "256GB") \
+              — generic phrases like "all products" will return no results. \
+              Supports category filters (e.g. "Mobile Phone", "Galaxy S25 FE", "Galaxy S26") \
+              and price range in USD dollars (e.g. min:500 max:1200).
               """)
     public String searchCatalog(
             @ToolParam(description = "UCP catalog search params: {query, filters: {categories, price: {min, max}}, pagination: {limit, cursor}}", required = false)
@@ -107,8 +80,8 @@ public class CatalogSearchTool {
 
     private String doSearch(String query, Filters filters, Pagination pagination) throws Exception {
         List<String> categoryFilter = new ArrayList<>();
-        int priceMin = 0;
-        int priceMax = Integer.MAX_VALUE;
+        double priceMin = 0;
+        double priceMax = Double.MAX_VALUE;
 
         if (filters != null) {
             if (filters.categories() != null)
@@ -128,28 +101,29 @@ public class CatalogSearchTool {
         final List<String> terms = (query != null && !query.isBlank())
                 ? List.of(query.toLowerCase().trim().split("\\s+"))
                 : List.of();
-        final int pMin = priceMin;
-        final int pMax = priceMax;
+        final double pMin = priceMin;
+        final double pMax = priceMax;
 
-        List<Product> allFiltered = CATALOG.stream()
+        List<ProductCatalogService.Product> allProducts = catalogService.getAll();
+
+        List<ProductCatalogService.Product> allFiltered = allProducts.stream()
                 .filter(p -> terms.isEmpty()
                         || terms.stream().anyMatch(t ->
                                 p.name().toLowerCase().contains(t)
                                 || p.description().toLowerCase().contains(t)))
                 .filter(p -> categoryFilter.isEmpty()
                         || p.categories().stream().anyMatch(c -> categoryFilter.contains(c.toLowerCase())))
-                .filter(p -> p.priceMinorUnits() >= pMin && p.priceMinorUnits() <= pMax)
+                .filter(p -> p.price() >= pMin && p.price() <= pMax)
                 .toList();
 
-        // If query terms produced no matches (e.g. generic phrases like "all products"),
-        // fall back to the full catalog so the caller always gets useful results.
+        // Fall back to full catalog (minus price filter) when keyword search returns nothing
         if (allFiltered.isEmpty() && !terms.isEmpty() && categoryFilter.isEmpty()) {
-            allFiltered = CATALOG.stream()
-                    .filter(p -> p.priceMinorUnits() >= pMin && p.priceMinorUnits() <= pMax)
+            allFiltered = allProducts.stream()
+                    .filter(p -> p.price() >= pMin && p.price() <= pMax)
                     .toList();
         }
 
-        List<Product> page = allFiltered.stream().skip(offset).limit(limit).toList();
+        List<ProductCatalogService.Product> page = allFiltered.stream().skip(offset).limit(limit).toList();
 
         // Build UCP-compliant response
         ObjectNode response = mapper.createObjectNode();
@@ -160,7 +134,7 @@ public class CatalogSearchTool {
         response.set("ucp", ucpMeta);
 
         ArrayNode productsArray = mapper.createArrayNode();
-        for (Product p : page) {
+        for (ProductCatalogService.Product p : page) {
             ObjectNode prod = mapper.createObjectNode();
             prod.put("id", p.id());
             prod.put("name", p.name());
@@ -169,13 +143,14 @@ public class CatalogSearchTool {
             p.categories().forEach(cats::add);
             prod.set("categories", cats);
             ObjectNode price = mapper.createObjectNode();
-            // Return price in major units (dollars) so proxy can display it cleanly
-            price.put("amount", p.priceMinorUnits() / 100.0);
+            price.put("amount", p.price());
             price.put("currency_code", p.currency());
             prod.set("price", price);
             ObjectNode availability = mapper.createObjectNode();
-            availability.put("in_stock", true);
+            availability.put("in_stock", p.inStock());
             prod.set("availability", availability);
+            prod.put("url", p.url());
+            prod.put("image_url", p.imageUrl());
             productsArray.add(prod);
         }
         response.set("products", productsArray);
