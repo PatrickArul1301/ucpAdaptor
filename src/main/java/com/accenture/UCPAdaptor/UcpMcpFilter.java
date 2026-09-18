@@ -64,14 +64,17 @@ public class UcpMcpFilter extends OncePerRequestFilter {
                 ObjectNode params = MAPPER.createObjectNode();
                 params.put("name", method);
 
-                // UCP wraps catalog-specific args under a "catalog" key alongside "meta".
-                // Strip "meta" and pass the rest (including the "catalog" key) as arguments —
-                // the tool schema expects { catalog: { query, filters, pagination } }.
+                // UCP wraps args alongside "meta" and uses snake_case keys.
+                // Strip "meta" and convert top-level keys to camelCase so they match
+                // Java parameter names (e.g. "product_code" → "productCode").
                 JsonNode originalParams = root.path("params");
                 if (!originalParams.isMissingNode() && originalParams.isObject()) {
                     ObjectNode args = (ObjectNode) originalParams.deepCopy();
                     args.remove("meta");
-                    params.set("arguments", args);
+                    ObjectNode camelArgs = MAPPER.createObjectNode();
+                    args.fields().forEachRemaining(e ->
+                        camelArgs.set(snakeToCamel(e.getKey()), e.getValue()));
+                    params.set("arguments", camelArgs);
                 } else {
                     params.set("arguments", MAPPER.createObjectNode());
                 }
@@ -84,6 +87,18 @@ public class UcpMcpFilter extends OncePerRequestFilter {
         }
 
         chain.doFilter(new BodyReplacingRequestWrapper(request, bodyBytes), response);
+    }
+
+    private static String snakeToCamel(String s) {
+        if (!s.contains("_")) return s;
+        StringBuilder sb = new StringBuilder();
+        boolean cap = false;
+        for (char c : s.toCharArray()) {
+            if (c == '_') { cap = true; }
+            else if (cap) { sb.append(Character.toUpperCase(c)); cap = false; }
+            else { sb.append(c); }
+        }
+        return sb.toString();
     }
 
     private static class BodyReplacingRequestWrapper extends HttpServletRequestWrapper {
