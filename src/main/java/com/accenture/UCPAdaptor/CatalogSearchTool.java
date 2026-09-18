@@ -10,6 +10,10 @@ import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.stereotype.Component;
 
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -100,6 +104,58 @@ public class CatalogSearchTool {
             );
         } catch (Exception e) {
             return "{\"error\": \"Search failed: " + e.getMessage() + "\"}";
+        }
+    }
+
+    // ── SKU detail lookup ─────────────────────────────────────────────────────
+
+    private static final String PRODUCT_DETAIL_URL =
+            "https://p1-smu-api-cdn.shop.samsung.com/tokocommercewebservices/v2/us/products/%s?fields=FULL";
+
+    @Tool(name = "get_product_details",
+            description = """
+              Fetch full details for a specific product by its SKU / product code. \
+              Use this after search_catalog when the customer wants more information \
+              about a particular product — it returns complete specs, pricing, images, \
+              colour variants, and availability from the live Samsung catalog. \
+              Input must be the exact product code shown in the search results \
+              (e.g. SM-S938UZBAVZW).
+              """)
+    public String getProductDetails(
+            @ToolParam(description = "Exact product SKU or product code (e.g. SM-S938UZBAVZW)", required = true)
+            String productCode) {
+        try {
+            String url = String.format(PRODUCT_DETAIL_URL, productCode.trim());
+
+            HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create(url))
+                    .GET()
+                    .header("Accept", "application/json")
+                    .build();
+
+            HttpResponse<String> httpResponse =
+                    client.send(request, HttpResponse.BodyHandlers.ofString());
+
+            ObjectNode response = mapper.createObjectNode();
+
+            ObjectNode ucpMeta = mapper.createObjectNode();
+            ucpMeta.put("capability", "dev.ucp.shopping.catalog.product_details");
+            ucpMeta.put("version", "2026-08-25");
+            response.set("ucp", ucpMeta);
+
+            if (httpResponse.statusCode() == 200) {
+                JsonNode productData = mapper.readTree(httpResponse.body());
+                response.set("product", productData);
+            } else {
+                response.put("error", "Product not found or service unavailable (HTTP "
+                        + httpResponse.statusCode() + ")");
+                response.put("product_code", productCode);
+            }
+
+            return mapper.writeValueAsString(response);
+        } catch (Exception e) {
+            return "{\"error\": \"Product lookup failed: " + e.getMessage() + "\"}";
         }
     }
 
