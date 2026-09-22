@@ -1,5 +1,6 @@
-package com.accenture.UCPAdaptor;
+package com.accenture.UCPAdaptor.controller;
 
+import com.accenture.UCPAdaptor.service.ProductCatalogService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -112,7 +113,11 @@ public class UcpAdaptorController {
                 {
                   "ucp": {
                     "version": "2026-08-25",
-                    "payment_handlers": {},
+                    "payment_handlers": {
+                      "credit_card": { "mock": true, "supported": true },
+                      "paypal":      { "mock": true, "supported": true },
+                      "apple_pay":   { "mock": true, "supported": true }
+                    },
                     "services": {
                       "dev.ucp.shopping": [
                         {
@@ -125,15 +130,24 @@ public class UcpAdaptorController {
                       ]
                     },""".formatted(mcpEndpoint) + """
                     "capabilities": {
-
                       "dev.ucp.shopping.catalog.search": [
                         {
                           "version": "2026-08-25",
                           "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/search",
                           "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
-
                         }
-                      ]
+                      ],
+                      "dev.ucp.shopping.cart.add_to_cart":          [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.cart.get_cart":             [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.cart.remove_from_cart":     [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.cart.update_cart_item":     [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.checkout.create_checkout":  [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.checkout.get_checkout":     [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.checkout.update_checkout":  [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.checkout.confirm_checkout": [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.payment.initiate_payment":  [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.payment.confirm_payment":   [{ "version": "2026-08-25", "mock": true }],
+                      "dev.ucp.shopping.payment.get_payment_status":[{ "version": "2026-08-25", "mock": true }]
                     }
                   },
                   "keys": [
@@ -150,5 +164,4 @@ public class UcpAdaptorController {
                 }
                 """;
     }
-
 }

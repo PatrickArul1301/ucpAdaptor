@@ -1,4 +1,4 @@
-package com.accenture.UCPAdaptor;
+package com.accenture.UCPAdaptor.filter;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

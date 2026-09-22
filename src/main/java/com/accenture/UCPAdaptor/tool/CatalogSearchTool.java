@@ -1,5 +1,6 @@
-package com.accenture.UCPAdaptor;
+package com.accenture.UCPAdaptor.tool;
 
+import com.accenture.UCPAdaptor.service.ProductCatalogService;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
