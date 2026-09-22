@@ -1,4 +1,4 @@
-package com.accenture.UCPAdaptor;
+package com.accenture.UCPAdaptor.service;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
