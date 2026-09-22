@@ -113,11 +113,6 @@ public class UcpAdaptorController {
                 {
                   "ucp": {
                     "version": "2026-08-25",
-                    "payment_handlers": {
-                      "credit_card": { "mock": true, "supported": true },
-                      "paypal":      { "mock": true, "supported": true },
-                      "apple_pay":   { "mock": true, "supported": true }
-                    },
                     "services": {
                       "dev.ucp.shopping": [
                         {
@@ -137,18 +132,29 @@ public class UcpAdaptorController {
                           "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
                         }
                       ],
-                      "dev.ucp.shopping.cart.add_to_cart":          [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.cart.get_cart":             [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.cart.remove_from_cart":     [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.cart.update_cart_item":     [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.checkout.create_checkout":  [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.checkout.get_checkout":     [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.checkout.update_checkout":  [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.checkout.confirm_checkout": [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.payment.initiate_payment":  [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.payment.confirm_payment":   [{ "version": "2026-08-25", "mock": true }],
-                      "dev.ucp.shopping.payment.get_payment_status":[{ "version": "2026-08-25", "mock": true }]
-                    }
+                      "dev.ucp.shopping.cart": [
+                        {
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/shopping/cart",
+                          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json"
+                        }
+                      ],
+                      "dev.ucp.shopping.checkout": [
+                        {
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/shopping/checkout",
+                          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/checkout.json"
+                        }
+                      ],
+                      "dev.ucp.shopping.order": [
+                        {
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/shopping/order",
+                          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/order.json"
+                        }
+                      ]
+                    },
+                    "payment_handlers": {}
                   },
                   "keys": [
                     {

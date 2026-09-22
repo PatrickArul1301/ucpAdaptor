@@ -10,9 +10,9 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class CartService {
 
-    public record CartItem(String productId, String productName, double unitPrice, String currency, int quantity) {}
+    public record CartItem(String productId, String productName, long unitPrice, String currency, int quantity, String imageUrl) {}
 
-    public record Cart(String cartId, List<CartItem> items, String status) {}
+    public record Cart(String id, List<CartItem> items, String status) {}
 
     private final ConcurrentHashMap<String, List<CartItem>> cartItems = new ConcurrentHashMap<>();
     private final ConcurrentHashMap<String, String> cartStatuses = new ConcurrentHashMap<>();
@@ -22,17 +22,33 @@ public class CartService {
         this.catalogService = catalogService;
     }
 
-    public Cart createCart() {
+    public Cart createCart(List<LineItemInput> lineItems) {
         String id = UUID.randomUUID().toString();
         cartItems.put(id, new ArrayList<>());
-        cartStatuses.put(id, "ACTIVE");
-        return new Cart(id, List.of(), "ACTIVE");
+        cartStatuses.put(id, "active");
+
+        if (lineItems != null) {
+            for (LineItemInput li : lineItems) {
+                if (li.productId() != null && li.quantity() != null && li.quantity() > 0) {
+                    try {
+                        addItem(id, li.productId(), li.quantity());
+                    } catch (Exception ignored) {
+                        // skip invalid items silently during cart creation
+                    }
+                }
+            }
+        }
+
+        List<CartItem> items = cartItems.get(id);
+        return new Cart(id, List.copyOf(items), "active");
     }
+
+    public record LineItemInput(String productId, Integer quantity) {}
 
     public Cart getCart(String cartId) {
         List<CartItem> items = cartItems.get(cartId);
         if (items == null) return null;
-        return new Cart(cartId, List.copyOf(items), cartStatuses.getOrDefault(cartId, "ACTIVE"));
+        return new Cart(cartId, List.copyOf(items), cartStatuses.getOrDefault(cartId, "active"));
     }
 
     public Cart addItem(String cartId, String productId, int quantity) {
@@ -41,65 +57,58 @@ public class CartService {
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("PRODUCT_NOT_FOUND"));
 
-        String id;
-        if (cartId == null || cartId.isBlank()) {
-            id = UUID.randomUUID().toString();
-            cartItems.put(id, new ArrayList<>());
-            cartStatuses.put(id, "ACTIVE");
-        } else {
-            id = cartId;
-            if (!cartItems.containsKey(id)) {
-                throw new IllegalArgumentException("CART_NOT_FOUND");
-            }
-            if ("CHECKED_OUT".equals(cartStatuses.get(id))) {
-                throw new IllegalStateException("CART_CHECKED_OUT");
-            }
+        List<CartItem> items = cartItems.get(cartId);
+        if (items == null) throw new IllegalArgumentException("CART_NOT_FOUND");
+        if ("checked_out".equals(cartStatuses.get(cartId)) || "canceled".equals(cartStatuses.get(cartId))) {
+            throw new IllegalStateException("CART_NOT_ACTIVE");
         }
 
-        List<CartItem> items = cartItems.get(id);
+        String currency = product.currency() != null && !product.currency().isBlank() ? product.currency() : "USD";
+        long unitPriceCents = Math.round(product.price() * 100);
+
         boolean found = false;
         for (int i = 0; i < items.size(); i++) {
             if (items.get(i).productId().equals(productId)) {
                 CartItem existing = items.get(i);
                 items.set(i, new CartItem(productId, existing.productName(), existing.unitPrice(),
-                        existing.currency(), existing.quantity() + quantity));
+                        existing.currency(), existing.quantity() + quantity, existing.imageUrl()));
                 found = true;
                 break;
             }
         }
         if (!found) {
-            String currency = product.currency() != null && !product.currency().isBlank() ? product.currency() : "USD";
-            items.add(new CartItem(productId, product.name(), product.price(), currency, quantity));
+            items.add(new CartItem(productId, product.name(), unitPriceCents, currency, quantity, product.imageUrl()));
         }
 
-        return new Cart(id, List.copyOf(items), cartStatuses.get(id));
-    }
-
-    public Cart removeItem(String cartId, String productId) {
-        List<CartItem> items = cartItems.get(cartId);
-        if (items == null) return null;
-        items.removeIf(i -> i.productId().equals(productId));
-        return new Cart(cartId, List.copyOf(items), cartStatuses.getOrDefault(cartId, "ACTIVE"));
+        return new Cart(cartId, List.copyOf(items), cartStatuses.get(cartId));
     }
 
     public Cart updateItem(String cartId, String productId, int quantity) {
         List<CartItem> items = cartItems.get(cartId);
         if (items == null) return null;
         if (quantity <= 0) {
-            return removeItem(cartId, productId);
-        }
-        for (int i = 0; i < items.size(); i++) {
-            if (items.get(i).productId().equals(productId)) {
-                CartItem existing = items.get(i);
-                items.set(i, new CartItem(productId, existing.productName(), existing.unitPrice(),
-                        existing.currency(), quantity));
-                break;
+            items.removeIf(i -> i.productId().equals(productId));
+        } else {
+            for (int i = 0; i < items.size(); i++) {
+                if (items.get(i).productId().equals(productId)) {
+                    CartItem existing = items.get(i);
+                    items.set(i, new CartItem(productId, existing.productName(), existing.unitPrice(),
+                            existing.currency(), quantity, existing.imageUrl()));
+                    break;
+                }
             }
         }
-        return new Cart(cartId, List.copyOf(items), cartStatuses.getOrDefault(cartId, "ACTIVE"));
+        return new Cart(cartId, List.copyOf(items), cartStatuses.getOrDefault(cartId, "active"));
+    }
+
+    public Cart cancelCart(String cartId) {
+        if (!cartItems.containsKey(cartId)) return null;
+        cartStatuses.put(cartId, "canceled");
+        List<CartItem> items = cartItems.get(cartId);
+        return new Cart(cartId, List.copyOf(items), "canceled");
     }
 
     public void markCheckedOut(String cartId) {
-        cartStatuses.put(cartId, "CHECKED_OUT");
+        cartStatuses.put(cartId, "checked_out");
     }
 }

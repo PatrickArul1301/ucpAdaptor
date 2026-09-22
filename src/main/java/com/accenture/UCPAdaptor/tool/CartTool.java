@@ -10,6 +10,8 @@ import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class CartTool {
 
@@ -21,124 +23,136 @@ public class CartTool {
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public record AddToCartParams(
-            @JsonProperty("cart_id") String cartId,
+    public record LineItemInput(
             @JsonProperty("product_id") String productId,
             @JsonProperty("quantity") Integer quantity
     ) {}
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public record CartItemParams(
-            @JsonProperty("cart_id") String cartId,
-            @JsonProperty("product_id") String productId
+    public record CreateCartParams(
+            @JsonProperty("line_items") List<LineItemInput> lineItems
     ) {}
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public record UpdateItemParams(
-            @JsonProperty("cart_id") String cartId,
-            @JsonProperty("product_id") String productId,
-            @JsonProperty("quantity") Integer quantity
+    public record UpdateCartParams(
+            @JsonProperty("id") String id,
+            @JsonProperty("line_items") List<LineItemInput> lineItems
     ) {}
 
-    @Tool(name = "add_to_cart",
+    @Tool(name = "create_cart",
             description = """
-              Add a product to the shopping cart. Provide product_id (exact SKU from search_catalog) \
-              and quantity. Omit cart_id to create a new cart; supply an existing cart_id to add to it. \
-              Returns the updated cart contents including subtotal.
+              Create a new shopping cart, optionally with initial items. \
+              Provide line_items as an array of { product_id, quantity } objects using \
+              exact product IDs from search_catalog. Returns the cart with all items and subtotal. \
+              If line_items is omitted or empty, an empty cart is created.
               """)
-    public String addToCart(
-            @ToolParam(description = "{ cart_id (optional, omit to create new cart), product_id (required), quantity (required, positive integer) }", required = true)
-            AddToCartParams params) {
+    public String createCart(
+            @ToolParam(description = "{ line_items (optional): [{ product_id, quantity }] }", required = false)
+            CreateCartParams params) {
         try {
-            CartService.Cart cart = cartService.addItem(
-                    params.cartId(),
-                    params.productId(),
-                    params.quantity() != null ? params.quantity() : 1);
-            return buildCartResponse("add_to_cart", cart);
-        } catch (IllegalArgumentException e) {
-            return errorResponse(e.getMessage().equals("PRODUCT_NOT_FOUND")
-                    ? "Product not found in catalog: " + params.productId()
-                    : "Cart not found: " + params.cartId(), e.getMessage());
-        } catch (IllegalStateException e) {
-            return errorResponse("Cart has already been checked out", "CART_CHECKED_OUT");
+            List<CartService.LineItemInput> inputs = null;
+            if (params != null && params.lineItems() != null) {
+                inputs = params.lineItems().stream()
+                        .map(li -> new CartService.LineItemInput(li.productId(), li.quantity()))
+                        .toList();
+            }
+            CartService.Cart cart = cartService.createCart(inputs);
+            return buildCartResponse("create_cart", cart);
         } catch (Exception e) {
-            return errorResponse("Failed to add item to cart: " + e.getMessage(), "INTERNAL_ERROR");
+            return errorResponse("Failed to create cart: " + e.getMessage(), "INTERNAL_ERROR");
         }
     }
 
     @Tool(name = "get_cart",
-            description = "Get the current shopping cart contents including all items, quantities, prices, and subtotal.")
+            description = "Get the current shopping cart contents including all items with images, quantities, prices in cents, and subtotal.")
     public String getCart(
-            @ToolParam(description = "The cart ID returned by add_to_cart", required = true)
-            String cartId) {
+            @ToolParam(description = "The cart ID returned by create_cart", required = true)
+            String id) {
         try {
-            CartService.Cart cart = cartService.getCart(cartId);
-            if (cart == null) return errorResponse("Cart not found: " + cartId, "CART_NOT_FOUND");
+            CartService.Cart cart = cartService.getCart(id);
+            if (cart == null) return errorResponse("Cart not found: " + id, "CART_NOT_FOUND");
             return buildCartResponse("get_cart", cart);
         } catch (Exception e) {
             return errorResponse("Failed to get cart: " + e.getMessage(), "INTERNAL_ERROR");
         }
     }
 
-    @Tool(name = "remove_from_cart",
-            description = "Remove a product entirely from the shopping cart.")
-    public String removeFromCart(
-            @ToolParam(description = "{ cart_id, product_id } — both required", required = true)
-            CartItemParams params) {
+    @Tool(name = "update_cart",
+            description = """
+              Update items in the shopping cart. Provide id (cart ID) and line_items array with \
+              { product_id, quantity } for each item to update. Set quantity to 0 to remove an item. \
+              Items not mentioned are left unchanged.
+              """)
+    public String updateCart(
+            @ToolParam(description = "{ id (required): cart ID, line_items (required): [{ product_id, quantity }] }", required = true)
+            UpdateCartParams params) {
         try {
-            CartService.Cart cart = cartService.removeItem(params.cartId(), params.productId());
-            if (cart == null) return errorResponse("Cart not found: " + params.cartId(), "CART_NOT_FOUND");
-            return buildCartResponse("remove_from_cart", cart);
+            CartService.Cart cart = cartService.getCart(params.id());
+            if (cart == null) return errorResponse("Cart not found: " + params.id(), "CART_NOT_FOUND");
+
+            if (params.lineItems() != null) {
+                for (LineItemInput li : params.lineItems()) {
+                    if (li.productId() != null) {
+                        cartService.updateItem(params.id(), li.productId(),
+                                li.quantity() != null ? li.quantity() : 0);
+                    }
+                }
+            }
+
+            cart = cartService.getCart(params.id());
+            return buildCartResponse("update_cart", cart);
         } catch (Exception e) {
-            return errorResponse("Failed to remove item: " + e.getMessage(), "INTERNAL_ERROR");
+            return errorResponse("Failed to update cart: " + e.getMessage(), "INTERNAL_ERROR");
         }
     }
 
-    @Tool(name = "update_cart_item",
-            description = "Update the quantity for a product already in the cart. Set quantity to 0 to remove the item.")
-    public String updateCartItem(
-            @ToolParam(description = "{ cart_id, product_id, quantity } — all required", required = true)
-            UpdateItemParams params) {
+    @Tool(name = "cancel_cart",
+            description = "Cancel a shopping cart. A canceled cart cannot be modified or checked out.")
+    public String cancelCart(
+            @ToolParam(description = "The cart ID to cancel", required = true)
+            String id) {
         try {
-            CartService.Cart cart = cartService.updateItem(
-                    params.cartId(), params.productId(),
-                    params.quantity() != null ? params.quantity() : 0);
-            if (cart == null) return errorResponse("Cart not found: " + params.cartId(), "CART_NOT_FOUND");
-            return buildCartResponse("update_cart_item", cart);
+            CartService.Cart cart = cartService.cancelCart(id);
+            if (cart == null) return errorResponse("Cart not found: " + id, "CART_NOT_FOUND");
+            return buildCartResponse("cancel_cart", cart);
         } catch (Exception e) {
-            return errorResponse("Failed to update cart item: " + e.getMessage(), "INTERNAL_ERROR");
+            return errorResponse("Failed to cancel cart: " + e.getMessage(), "INTERNAL_ERROR");
         }
     }
 
-    private String buildCartResponse(String capability, CartService.Cart cart) throws Exception {
+    private String buildCartResponse(String tool, CartService.Cart cart) throws Exception {
         ObjectNode response = mapper.createObjectNode();
 
         ObjectNode ucp = mapper.createObjectNode();
-        ucp.put("capability", "dev.ucp.shopping.cart." + capability);
+        ucp.put("capability", "dev.ucp.shopping.cart");
         ucp.put("version", "2026-08-25");
         response.set("ucp", ucp);
 
         ObjectNode cartNode = mapper.createObjectNode();
-        cartNode.put("cart_id", cart.cartId());
+        cartNode.put("id", cart.id());
 
         ArrayNode items = mapper.createArrayNode();
-        double subtotal = 0;
+        long subtotal = 0;
         for (CartService.CartItem item : cart.items()) {
             ObjectNode itemNode = mapper.createObjectNode();
             itemNode.put("product_id", item.productId());
             itemNode.put("product_name", item.productName());
             itemNode.put("unit_price", item.unitPrice());
-            itemNode.put("currency_code", item.currency());
+            itemNode.put("currency", item.currency());
             itemNode.put("quantity", item.quantity());
+            if (item.imageUrl() != null && !item.imageUrl().isBlank()) {
+                itemNode.put("image_url", item.imageUrl());
+            }
             items.add(itemNode);
             subtotal += item.unitPrice() * item.quantity();
         }
-        cartNode.set("items", items);
+        cartNode.set("line_items", items);
 
-        ObjectNode subtotalNode = mapper.createObjectNode();
-        subtotalNode.put("amount", Math.round(subtotal * 100.0) / 100.0);
-        subtotalNode.put("currency_code", "USD");
-        cartNode.set("subtotal", subtotalNode);
+        cartNode.put("currency", "USD");
+        ArrayNode totals = mapper.createArrayNode();
+        totals.add(mapper.createObjectNode().put("type", "subtotal").put("amount", subtotal));
+        totals.add(mapper.createObjectNode().put("type", "total").put("amount", subtotal));
+        cartNode.set("totals", totals);
 
         cartNode.put("status", cart.status());
         response.set("cart", cartNode);
