@@ -1,5 +1,6 @@
-package com.accenture.UCPAdaptor;
+package com.accenture.UCPAdaptor.tool;
 
+import com.accenture.UCPAdaptor.service.ProductCatalogService;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -155,23 +156,39 @@ public class CatalogSearchTool {
             try { offset = Integer.parseInt(pagination.cursor().trim()); } catch (NumberFormatException ignored) {}
         }
 
-        final List<String> terms = (query != null && !query.isBlank())
-                ? List.of(query.toLowerCase().trim().split("\\s+"))
+        final String phrase = (query != null && !query.isBlank()) ? query.toLowerCase().trim() : null;
+        final List<String> terms = (phrase != null)
+                ? List.of(phrase.split("\\s+"))
                 : List.of();
         final double pMin = priceMin;
         final double pMax = priceMax;
 
         List<ProductCatalogService.Product> allProducts = catalogService.getAll();
 
-        List<ProductCatalogService.Product> allFiltered = allProducts.stream()
-                .filter(p -> terms.isEmpty()
-                        || terms.stream().anyMatch(t ->
-                                p.name().toLowerCase().contains(t)
-                                || p.description().toLowerCase().contains(t)))
-                .filter(p -> categoryFilter.isEmpty()
-                        || p.categories().stream().anyMatch(c -> categoryFilter.contains(c.toLowerCase())))
-                .filter(p -> p.price() >= pMin && p.price() <= pMax)
-                .toList();
+        // Phrase match first: if the full query appears verbatim in a product name,
+        // return only those products (handles "show all colors for Galaxy S26 FE 256GB (Unlocked)").
+        List<ProductCatalogService.Product> allFiltered = List.of();
+        if (phrase != null && phrase.split("\\s+").length >= 3) {
+            allFiltered = allProducts.stream()
+                    .filter(p -> p.name().toLowerCase().contains(phrase))
+                    .filter(p -> categoryFilter.isEmpty()
+                            || p.categories().stream().anyMatch(c -> categoryFilter.contains(c.toLowerCase())))
+                    .filter(p -> p.price() >= pMin && p.price() <= pMax)
+                    .toList();
+        }
+
+        // Fall back to OR-term matching when phrase match finds nothing
+        if (allFiltered.isEmpty()) {
+            allFiltered = allProducts.stream()
+                    .filter(p -> terms.isEmpty()
+                            || terms.stream().anyMatch(t ->
+                                    p.name().toLowerCase().contains(t)
+                                    || p.description().toLowerCase().contains(t)))
+                    .filter(p -> categoryFilter.isEmpty()
+                            || p.categories().stream().anyMatch(c -> categoryFilter.contains(c.toLowerCase())))
+                    .filter(p -> p.price() >= pMin && p.price() <= pMax)
+                    .toList();
+        }
 
         // Fall back to full catalog (minus price filter) when keyword search returns nothing
         if (allFiltered.isEmpty() && !terms.isEmpty() && categoryFilter.isEmpty()) {

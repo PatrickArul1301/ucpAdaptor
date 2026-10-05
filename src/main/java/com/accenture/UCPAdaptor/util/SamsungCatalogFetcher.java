@@ -1,4 +1,4 @@
-package com.accenture.UCPAdaptor;
+package com.accenture.UCPAdaptor.util;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -21,7 +21,7 @@ import java.util.Map;
  * and writes a compact catalog to src/main/resources/data/samsung-catalog.json.
  *
  * Run with:
- *   mvn exec:java -Dexec.mainClass=com.accenture.UCPAdaptor.SamsungCatalogFetcher
+ *   mvn exec:java -Dexec.mainClass=com.accenture.UCPAdaptor.util.SamsungCatalogFetcher
  */
 public class SamsungCatalogFetcher {
 
