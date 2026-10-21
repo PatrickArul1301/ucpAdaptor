@@ -106,6 +106,46 @@ public class UcpAdaptorController {
         return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;");
     }
 
+    @GetMapping(value = "/sap/.well-known/ucp", produces = MediaType.APPLICATION_JSON_VALUE)
+    public String getSapUCPSupport() {
+        String mcpEndpoint = publicUrl + "/ucp/sap-mcp";
+        return """
+                {
+                  "ucp": {
+                    "version": "2026-08-25",
+                    "services": {
+                      "dev.ucp.shopping": [
+                        {
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/overview",
+                          "transport": "mcp",
+                          "endpoint": "%s",
+                          "schema": "https://ucp.dev/2026-08-25/services/shopping/mcp.openrpc.json"
+                        }
+                      ]
+                    },
+                    "capabilities": {
+                      "dev.ucp.shopping.catalog.search": [
+                        {
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/search",
+                          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
+                        }
+                      ],
+                      "dev.ucp.shopping.cart": [
+                        {
+                          "version": "2026-08-25",
+                          "spec": "https://ucp.dev/2026-08-25/specification/shopping/cart",
+                          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json"
+                        }
+                      ]
+                    },
+                    "payment_handlers": {}
+                  }
+                }
+                """.formatted(mcpEndpoint);
+    }
+
     @GetMapping(value = "/.well-known/ucp", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getUCPSupport() {
         String mcpEndpoint = publicUrl + "/ucp/mcp";
